@@ -36,7 +36,7 @@
                             <li class="mb-3">
                                 <a href="#" class="d-flex">
                                     <figure class="image mr-4">
-                                        <img src="assets/images/hero_bg_1.jpg" alt="" class="img-fluid">
+                                        <img src="assets/front/images/hero_bg_1.jpg" alt="" class="img-fluid">
                                     </figure>
                                     <div class="text">
                                         <span class="small text-uppercase date">Sep 16, 2018</span>
@@ -47,7 +47,7 @@
                             <li class="mb-3">
                                 <a href="#" class="d-flex">
                                     <figure class="image mr-4">
-                                        <img src="assets/images/hero_bg_1.jpg" alt="" class="img-fluid">
+                                        <img src="assets/front/images/hero_bg_1.jpg" alt="" class="img-fluid">
                                     </figure>
                                     <div class="text">
                                         <span class="small text-uppercase date">Sep 16, 2018</span>
@@ -58,7 +58,7 @@
                             <li class="mb-3">
                                 <a href="#" class="d-flex">
                                     <figure class="image mr-4">
-                                        <img src="assets/images/hero_bg_1.jpg" alt="" class="img-fluid">
+                                        <img src="assets/front/images/hero_bg_1.jpg" alt="" class="img-fluid">
                                     </figure>
                                     <div class="text">
                                         <span class="small text-uppercase date">Sep 16, 2018</span>
@@ -123,19 +123,19 @@
 </footer>
 </div>
 
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-<script src="assets/js/jquery-migrate-3.0.1.min.js"></script>
-<script src="assets/js/jquery-ui.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/owl.carousel.min.js"></script>
-<script src="assets/js/jquery.stellar.min.js"></script>
-<script src="assets/js/jquery.countdown.min.js"></script>
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<script src="assets/js/bootstrap-datepicker.min.js"></script>
-<script src="assets/js/aos.js"></script>
+<script src="assets/front/js/jquery-3.3.1.min.js"></script>
+<script src="assets/front/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="assets/front/js/jquery-ui.js"></script>
+<script src="assets/front/js/popper.min.js"></script>
+<script src="assets/front/js/bootstrap.min.js"></script>
+<script src="assets/front/js/owl.carousel.min.js"></script>
+<script src="assets/front/js/jquery.stellar.min.js"></script>
+<script src="assets/front/js/jquery.countdown.min.js"></script>
+<script src="assets/front/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/front/js/bootstrap-datepicker.min.js"></script>
+<script src="assets/front/js/aos.js"></script>
 
-<script src="assets/js/main.js"></script>
+<script src="assets/front/js/main.js"></script>
 
 </body>
 
