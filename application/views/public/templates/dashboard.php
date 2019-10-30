@@ -26,11 +26,11 @@
               <div class="d-flex ml-auto">
                 <a href="#" class="d-flex align-items-center ml-auto mr-4">
                   <span class="icon-phone mr-2"></span>
-                  <span class="d-none d-md-inline-block">youremail@domain.com</span>
+                  <span class="d-none d-md-inline-block">RuangRespons@gmail.com</span>
                 </a>
                 <a href="#" class="d-flex align-items-center">
                   <span class="icon-envelope mr-2"></span>
-                  <span class="d-none d-md-inline-block">+1 291 2830 302</span>
+                  <span class="d-none d-md-inline-block">+621404555</span>
                 </a>
               </div>
             </div>
@@ -41,7 +41,7 @@
         <div class="container py-1">
           <div class="row align-items-center">
             <div class="col-2">
-              <h1 class="mb-0 site-logo"><a href="index.html">Interior</a></h1>
+              <h1 class="mb-0 site-logo"><a href="index.html">Desain Interior</a></h1>
             </div>
             <div class="col-10">
               <nav class="site-navigation text-right" role="navigation">
@@ -106,8 +106,8 @@
                 <span class="icon flaticon-window font-weight-light h2"></span>
               </div>
               <div class="text">
-                <h3>Interior Architecture</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Arsitektur Interior</h3>
+                <p>Desain 3D Tentang Arsitektur Interior.</p>
               </div>
             </a>
           </div>
@@ -117,8 +117,8 @@
                 <span class="icon flaticon-measuring font-weight-light h2"></span>
               </div>
               <div class="text">
-                <h3>Interior Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Desain Interior</h3>
+                <p>Anda dapat memilih Desain yang anda suka.</p>
               </div>
             </a>
           </div>
@@ -260,28 +260,28 @@
 
         <div class="testimony">
           <img src="assets/images/person_1.jpg" alt="Image" class="img-fluid">
-          <h3>Cloe Marena</h3>
+          <h3>Alfalah Anugara</h3>
           <span class="sub-title">Owner of Building Co.</span>
           <p>&ldquo;<em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium non eligendi totam natus ullam cumque! Assumenda optio, ad in! Nesciunt natus veritatis hic iste quas. Sunt iste autem vel repudiandae.</em>&rdquo;</p>
         </div>
 
         <div class="testimony">
           <img src="assets/images/person_2.jpg" alt="Image" class="img-fluid">
-          <h3>Nathalie Channie</h3>
+          <h3>Ashfin Ramadhand</h3>
           <span class="sub-title">Owner of Building Co.</span>
           <p>&ldquo;<em>Eveniet, laboriosam impedit facilis. Voluptatem, repudiandae eligendi maiores sunt itaque, dolores voluptas labore perferendis, illum tenetur suscipit vero officia. Quaerat facilis cum ex a labore iusto, beatae fuga nam rem, quos vel aliquam nobis.</em>&rdquo;</p>
         </div>
 
         <div class="testimony">
           <img src="assets/images/person_3.jpg" alt="Image" class="img-fluid">
-          <h3>Will Turner</h3>
+          <h3>Irham Rizaldy</h3>
           <span class="sub-title">Owner of Building Co.</span>
           <p>&ldquo;<em>Laboriosam nisi natus quos soluta blanditiis iste in distinctio fugiat perferendis, architecto eveniet provident, consequatur dolore ab nihil voluptatibus laborum magnam cum assumenda nobis, nam quam quae! Unde porro laboriosam nam qui! Eligendi, qui!</em>&rdquo;</p>
         </div>
 
         <div class="testimony">
           <img src="assets/images/person_4.jpg" alt="Image" class="img-fluid">
-          <h3>Nicolas Stainer</h3>
+          <h3>Yoga Ibnu Dinata</h3>
           <span class="sub-title">Owner of Building Co.</span>
           <p>&ldquo;<em>Voluptatibus sed vero corporis reiciendis, ducimus iste aliquam doloribus voluptas nam quo assumenda perferendis excepturi accusantium, ipsam minus tempora earum exercitationem laborum. Delectus voluptate quaerat repellat obcaecati. Qui nemo ad similique facere modi dolores.</em>&rdquo;</p>
         </div>
