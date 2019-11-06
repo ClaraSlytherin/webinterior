@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+  
 <?php $this->load->view('public/templates/header'); ?>
 
 <body>
@@ -26,8 +26,7 @@
     <!-- /.content-wrapper -->
 
     <?php $this->load->view('public/templates/footer');  ?>
-
-
-</body>
+  
+  </body>
 
 </html>
