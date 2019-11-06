@@ -87,7 +87,7 @@
                     </li>
                   </ul>
                 </li>
-                <li><a href="<?= base_url(); ?>about.php">About Us</a></li>
+                <li><a href="<?= base_url(); ?>about">About Us</a></li>
                 <li class="has-children">
                   <a href="projects.html">Projects</a>
                   <ul class="dropdown arrow-top">
