@@ -9,7 +9,7 @@ class Home extends CI_Controller
     public function index($id = '')
     {
         $this->load->view('public/templates/header');
-        $this->load->view('public/templates/dashboard');
+        $this->load->view('public/index');
         $this->load->view('public/templates/footer');
     }
 }
