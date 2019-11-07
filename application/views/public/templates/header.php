@@ -71,11 +71,11 @@
               <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
 
               <ul class="site-menu js-clone-nav d-none d-lg-block">
-                <li><a href="<?= base_url(); ?>home">Home</a></li>
-                <li><a href="<?= base_url(); ?>projects">Projects</a></li>
-                <li><a href="<?= base_url(); ?>designer">Designer</a></li>
-                <li><a href="<?= base_url(); ?>about">About Us</a></li>
-                <li><a href="<?= base_url(); ?>contact">Contact</a></li>
+                <li><a href="<?= base_url(); ?>home">Halaman Utama</a></li>
+                <li><a href="<?= base_url(); ?>projects">Projek</a></li>
+                <li><a href="<?= base_url(); ?>designer">Desainer</a></li>
+                <li><a href="<?= base_url(); ?>about">Tentang Kami</a></li>
+                <li><a href="<?= base_url(); ?>contact">Hubungi Kami</a></li>
               </ul>
             </div>
           </nav>
