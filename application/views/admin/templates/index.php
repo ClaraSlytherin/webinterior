@@ -6,41 +6,42 @@
 <?php $this->load->view('admin/templates/head'); ?>
 
 <body class="hold-transition skin-blue sidebar-mini">
-<div class="wrapper">
+  <div class="wrapper">
 
-  <?php $this->load->view('admin/templates/header'); ?>  
+    <?php $this->load->view('admin/templates/header'); ?>
 
-  <!-- Left side column. contains the logo and sidebar -->
-  
-  <?php $this->load->view('admin/templates/sidebar'); ?>
+    <!-- Left side column. contains the logo and sidebar -->
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        <?php echo $judul ?>
-        <!-- <small>Control panel</small> -->
-      </h1>
-      
-    </section>
+    <?php $this->load->view('admin/templates/sidebar'); ?>
 
-    <!-- Main content -->
-    <section class="content">
-      <!-- Small boxes (Stat box) -->
-      <?php $this->load->view($content); ?>
-      <!-- /.row -->
-      <!-- Main row -->
-      
-      <!-- /.row (main row) -->
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <section class="content-header">
+        <h1>
+          Design Interior Admin Page
+          <!-- <small>Control panel</small> -->
+        </h1>
 
-    </section>
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
-  
-  <?php $this->load->view('admin/templates/footer');  ?>
+      </section>
+
+      <!-- Main content -->
+      <section class="content">
+        <!-- Small boxes (Stat box) -->
+        <!-- <?php $this->load->view($content); ?> -->
+        <!-- /.row -->
+        <!-- Main row -->
+
+        <!-- /.row (main row) -->
+
+      </section>
+      <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+    <?php $this->load->view('admin/templates/footer');  ?>
 
 
 </body>
+
 </html>
