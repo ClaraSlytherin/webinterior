@@ -98,7 +98,7 @@
                 </li>
                 <li><a href="news.html">News</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="<?= base_url(); ?>contact">Contact</a></li>
               </ul>
             </div>
           </nav>
