@@ -63,7 +63,7 @@
     <div class="container py-1">
       <div class="row align-items-center">
         <div class="col-2">
-          <h1 class="mb-0 site-logo"><a href="index.html">Interior</a></h1>
+          <h1 class="mb-0 site-logo"><a href="<?= base_url(); ?>home">Ruang Respons</a></h1>
         </div>
         <div class="col-10">
           <nav class="site-navigation text-right" role="navigation">
@@ -72,7 +72,7 @@
 
               <ul class="site-menu js-clone-nav d-none d-lg-block">
                 <li class="has-children active">
-                  <a href="index.html">Home</a>
+                  <a href="<?= base_url(); ?>home">Home</a>
                   <ul class="dropdown arrow-top">
                     <li><a href="#">Menu One</a></li>
                     <li><a href="#">Menu Two</a></li>
@@ -98,7 +98,7 @@
                 </li>
                 <li><a href="news.html">News</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="<?= base_url(); ?>contact">Contact</a></li>
               </ul>
             </div>
           </nav>
