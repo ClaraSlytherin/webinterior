@@ -21,7 +21,7 @@
         <li class="dropdown user user-menu">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <img src="<?= base_url('assets/back/') ?>dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-            <span class="hidden-xs">Hi, <?= ($_SESSION['name']) ?></span>
+            <span class="hidden-xs">Hi, Admin</span>
           </a>
         <li><a href="#">Logout </a></li>
         </li>
