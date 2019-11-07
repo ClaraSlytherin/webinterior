@@ -63,7 +63,7 @@
     <div class="container py-1">
       <div class="row align-items-center">
         <div class="col-2">
-          <h1 class="mb-0 site-logo"><a href="index.html">Ruang Respons</a></h1>
+          <h1 class="mb-0 site-logo"><a href="<?= base_url(); ?>home">Ruang Respons</a></h1>
         </div>
         <div class="col-10">
           <nav class="site-navigation text-right" role="navigation">
