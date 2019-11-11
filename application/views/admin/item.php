@@ -17,10 +17,10 @@
                         <tr>
                             <th>No</th>
                             <th>Nama</th>
-                            <th>Harga</th>
+                            <!-- <th>Harga</th> -->
                             <!-- <th>Status</th> -->
-                            <th>Stok</th>
-                            <th>Kategori</th>
+                            <!-- <th>Stok</th> -->
+                            <!-- <th>Kategori</th> -->
                             <th>Aksi</th>
                         </tr>
                     </thead>
@@ -29,15 +29,15 @@
                         <?php foreach ($item as $produk) : ?>
                             <tr>
                                 <td><?php echo $nomor ?></td>
-                                <td><?php echo $produk['nama_produk'] ?></td>
-                                <td><?php echo 'Rp ' . number_format($produk['harga'], 0, ',', '.') ?></td>
+                                <td><?php echo $produk['nama_desain'] ?></td>
+                                <!-- <td><?php echo 'Rp ' . number_format($produk['harga'], 0, ',', '.') ?></td> -->
                                 <!-- <td><?php echo $produk['status'] ?></td> -->
-                                <td><?php echo $produk['stok'] ?></td>
-                                <td><?php echo $produk['nama_kategori'] ?></td>
+                                <!-- <td><?php echo $produk['stok'] ?></td> -->
+                                <!-- <td><?php echo $produk['nama_kategori'] ?></td> -->
                                 <td>
-                                    <a href="<?= base_url('') ?>admin/item/detailItem/<?= $produk['id_produk'] ?>" class="btn btn-primary">Detail</a>
-                                    <a href="<?= base_url('') ?>admin/item/updateItem/<?= $produk['id_produk'] ?>" class="btn btn-warning">Ubah</a>
-                                    <a href="<?= base_url('') ?>admin/item/deleteItem/<?= $produk['id_produk'] ?>" class="btn btn-danger tombol-hapus">Hapus</a>
+                                    <a href="<?= base_url('') ?>admin/item/detailItem/<?= $produk['id_item'] ?>" class="btn btn-primary">Detail</a>
+                                    <a href="<?= base_url('') ?>admin/item/updateItem/<?= $produk['id_item'] ?>" class="btn btn-warning">Ubah</a>
+                                    <a href="<?= base_url('') ?>admin/item/deleteItem/<?= $produk['id_item'] ?>" class="btn btn-danger tombol-hapus">Hapus</a>
                                 </td>
                             </tr>
                             <?php $nomor++; ?>
