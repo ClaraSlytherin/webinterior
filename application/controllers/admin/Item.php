@@ -119,7 +119,7 @@ class Item extends CI_Controller
                     'id_item' => $id_item
                 );
 
-                $this->Item_model->updateData($where, $data, 'tabel_item');
+                $this->Item_model->updateData($data, 'tabel_item', $where);
                 redirect('admin/item');
             }
         }

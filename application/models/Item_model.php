@@ -1,6 +1,8 @@
 
 <?php
 
+defined('BASEPATH') or exit('No direct script access allowed');
+
 class Item_model extends CI_model
 {
     public function getNewProduct()
@@ -32,8 +34,8 @@ class Item_model extends CI_model
     public function cari($keyword)
     {
         $this->db->select('*');
-        $this->db->from('produk');
-        $this->db->like('nama_produk', $keyword);
+        $this->db->from('tabel_item');
+        $this->db->like('nama_desain', $keyword);
         return $this->db->get()->result_array();
     }
 
