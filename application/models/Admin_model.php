@@ -97,19 +97,19 @@ class Admin_model extends CI_Model
         return $this->db->update('pembelian', $data);
     }
 
-    public function getCountOrder()
+    public function getCountItem()
     {
-        $this->db->select('pembelian.id_pembelian, count(pembelian.id_pembelian) as total');
-        $query = $this->db->get('pembelian');
+        $this->db->select('tabel_item.id_item, count(tabel_item.id_item) as total');
+        $query = $this->db->get('tabel_item');
         if ($query->num_rows() > 0) {
             return $query->result();
         }
     }
 
-    public function getCountUser()
+    public function getCountDesigner()
     {
-        $this->db->select('pelanggan.id_pelanggan, count(pelanggan.id_pelanggan) as total');
-        $query = $this->db->get('pelanggan');
+        $this->db->select('data_designer.id, count(data_designer.id) as total');
+        $query = $this->db->get('data_designer');
         if ($query->num_rows() > 0) {
             return $query->result();
         }
