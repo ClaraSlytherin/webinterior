@@ -17,8 +17,8 @@ class Admin_model extends CI_Model
     public function getJoinTransaction()
     {
         $this->db->select('*');
-        $this->db->from('pembelian');
-        $this->db->join('pelanggan', 'pelanggan.id_pelanggan = pembelian.id_pelanggan');
+        $this->db->from('tabel_item');
+        $this->db->join('data_designer', 'data_designer.id = tabel_item.id_item');
         return $query = $this->db->get()->result_array();
     }
 

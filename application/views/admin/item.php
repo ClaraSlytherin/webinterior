@@ -17,6 +17,7 @@
                         <tr>
                             <th>No</th>
                             <th>Nama</th>
+                            <th>Deskripsi</th>
                             <th>Aksi</th>
                         </tr>
                     </thead>
@@ -26,6 +27,7 @@
                             <tr>
                                 <td><?php echo $nomor ?></td>
                                 <td><?php echo $produk['nama_desain'] ?></td>
+                                <td><?php echo $produk['deskripsi'] ?></td>
                                 <td>
                                     <a href="<?= base_url('') ?>admin/item/detailItem/<?= $produk['id_item'] ?>" class="btn btn-primary">Detail</a>
                                     <a href="<?= base_url('') ?>admin/item/updateItem/<?= $produk['id_item'] ?>" class="btn btn-warning">Ubah</a>
