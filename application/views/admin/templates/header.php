@@ -23,13 +23,13 @@
             <?php if (isset($_SESSION['email'])) { ?>
               <img src="<?= base_url('assets/back/') ?>dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
               <span class="hidden-xs">Hi, <?= ($_SESSION['name']) ?></span>
-            </a>
-          <li><a href="<?= base_url() ?>admin/login_admin/auth/logout">Logout </a></li>
-        <?php } else { ?>
-          <li><a href="<?= base_url(); ?>admin/login_admin/auth/index">Log In </a></li>
-        <?php } ?>
-        </li>
-        <!-- Control Sidebar Toggle Button -->
+          </a>
+        <li><a href="<?= base_url() ?>admin/login/auth/logout">Logout </a></li>
+      <?php } else { ?>
+        <li><a href="<?= base_url(); ?>admin/login/auth/index">Log In </a></li>
+      <?php } ?>
+      </li>
+      <!-- Control Sidebar Toggle Button -->
 
       </ul>
     </div>

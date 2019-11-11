@@ -25,17 +25,17 @@ class Item extends CI_Controller
 
     public function addItem()
     {
-        $this->form_validation->set_rules('id_kategori', 'Id_Kategori', 'required');
-        $this->form_validation->set_rules('nama_produk', 'Nama Produk', 'required');
-        $this->form_validation->set_rules('harga', 'Harga', 'required|numeric');
-        $this->form_validation->set_rules('stok', 'Stok', 'required|numeric');
-        $this->form_validation->set_rules('berat', 'Berat', 'required|numeric');
+        // $this->form_validation->set_rules('id_kategori', 'Id_Kategori', 'required');
+        $this->form_validation->set_rules('nama_desain', 'Nama Desain', 'required');
+        // $this->form_validation->set_rules('harga', 'Harga', 'required|numeric');
+        // $this->form_validation->set_rules('stok', 'Stok', 'required|numeric');
+        // $this->form_validation->set_rules('berat', 'Berat', 'required|numeric');
         // $this->form_validation->set_rules('status', 'Status', 'required');
         // $this->form_validation->set_rules('foto', 'Foto', 'required');
         $this->form_validation->set_rules('deskripsi', 'Deskripsi', 'required');
 
         if ($this->form_validation->run() == FALSE) {
-            $data['category'] = $this->Admin_model->getAll('kategori_produk');
+            // $data['category'] = $this->Admin_model->getAll('tabel_item');
             $data['title'] = 'Item - Page';
             $data['judul'] = 'Form Add Item';
             $data['content'] = 'admin/additem';
@@ -48,20 +48,20 @@ class Item extends CI_Controller
 
             $this->load->library('upload', $config);
 
-            if ($this->upload->do_upload('foto')) {
+            if ($this->upload->do_upload('gambar')) {
                 $img = $this->upload->data();
                 $foto = $img['file_name'];
                 $items = [
-                    "id_kategori" => $this->input->post('id_kategori', true),
-                    "nama_produk" => $this->input->post('nama_produk', true),
-                    "harga" => $this->input->post('harga', true),
+                    // "id_kategori" => $this->input->post('id_kategori', true),
+                    "nama_desain" => $this->input->post('nama_desain', true),
+                    // "harga" => $this->input->post('harga', true),
                     // "status" => $this->input->post('status', true),
-                    "stok" => $this->input->post('stok', true),
-                    "berat" => $this->input->post('berat', true),
+                    // "stok" => $this->input->post('stok', true),
+                    // "berat" => $this->input->post('berat', true),
                     "foto" => $foto,
                     "deskripsi" => $this->input->post('deskripsi', true)
                 ];
-                $this->Admin_model->add('produk', $items);
+                $this->Admin_model->add('tabel_item', $items);
                 $this->session->set_flashdata('flash', 'Ditambahkan');
                 redirect('admin/item');
             }
