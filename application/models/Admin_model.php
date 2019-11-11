@@ -34,7 +34,7 @@ class Admin_model extends CI_Model
 
     public function getById($id = '')
     {
-        $query = $this->db->query("SELECT * FROM produk JOIN kategori_produk ON produk.id_kategori = kategori_produk.id_kategori WHERE id_produk = '$id'");
+        $query = $this->db->query("SELECT * FROM tabel_item WHERE id_item = '$id'");
         // $this->db->get_where($table, array($key => $id))->result_array();
         return $query->result_array();
     }
@@ -48,7 +48,7 @@ class Admin_model extends CI_Model
 
     public function delete($id)
     {
-        $this->db->delete('produk', ['id_produk' => $id]);
+        $this->db->delete('tabel_item', ['id_item' => $id]);
     }
 
     public function deleteTsc($id)
