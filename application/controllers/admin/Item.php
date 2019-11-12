@@ -91,7 +91,7 @@ class Item extends CI_Controller
         if ($this->form_validation->run() == FALSE) {
             $data['title'] = 'Item - Page';
             $data['judul'] = 'Form Ubah Item';
-            $data['content'] = 'admin/ubahitem';
+            $data['content'] = 'admin/edititem';
             $this->load->view('admin/templates/index', $data);
         } else {
 

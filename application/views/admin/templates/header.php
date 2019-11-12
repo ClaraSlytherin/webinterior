@@ -22,7 +22,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <?php if (isset($_SESSION['email'])) { ?>
               <img src="<?= base_url('assets/back/') ?>dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">Hi, <?= ($_SESSION['name']) ?></span>
+              <span class="hidden-xs">Hi, <?= ($_SESSION['nama']) ?></span>
           </a>
         <li><a href="<?= base_url() ?>admin/login/auth/logout">Logout </a></li>
       <?php } else { ?>
