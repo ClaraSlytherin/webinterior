@@ -8,7 +8,7 @@
                     </div>
                     <div class="col-md-6 col-lg-6">
                         <ul class="list-unstyled">
-                            <li><a href="#">Home</a></li>
+                            <li><a href="<?= base_url(); ?>home">Halaman Utama</a></li>
                             <li><a href="#">Services</a></li>
                             <li><a href="#">News</a></li>
                             <li><a href="#">Team</a></li>
@@ -16,9 +16,9 @@
                     </div>
                     <div class="col-md-6 col-lg-6">
                         <ul class="list-unstyled">
-                            <li><a href="#">About Us</a></li>
+                            <li><a href="<?= base_url(); ?>about">Tentang Kami</a></li>
                             <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="<?= base_url(); ?>contact">Hubungi Kami</a></li>
                             <li><a href="#">Membership</a></li>
                         </ul>
                     </div>

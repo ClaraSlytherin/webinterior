@@ -7,8 +7,13 @@
         <img src="<?= base_url('') ?>assets/img/admin/User-icon.png" class="img-circle" alt="User Image">
       </div>
       <div class="pull-left info">
-        <p><?= ($_SESSION['name']) ?></p>
-        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+        <?php if (isset($_SESSION['email'])) { ?>
+          <p><?= ($_SESSION['name']) ?></p>
+          <a><i class="fa fa-circle text-success"></i> Online</a>
+        <?php } else { ?>
+          <p>Anon</p>
+          <a><i class="fa fa-circle text-failed"></i> Offline</a>
+        <?php } ?>
       </div>
     </div>
     <!-- search form -->
@@ -30,17 +35,17 @@
         </a>
       </li>
       <li class="">
-        <a href="<?= base_url() ?>admin/transaction">
+        <a href="<?= base_url() ?>admin/designer">
           <i class="fa fa-exchange"></i>
-          <span>Transaction</span>
+          <span>Designer</span>
         </a>
       </li>
-      <li class="">
+      <!-- <li class="">
         <a href="<?= base_url() ?>admin/user">
           <i class="fa fa-users"></i>
           <span>User Management</span>
-        </a>
-        <!-- </li>
+        </a> -->
+      <!-- </li>
       <li class="">
         <a href="<?= base_url() ?>admin/report">
           <i class="fa fa-book"></i>
@@ -49,7 +54,7 @@
       </li> -->
 
 
-        <!-- <li class="header">SETTING</li>
+      <!-- <li class="header">SETTING</li>
       <li><a href="#"><i class="fa fa-gears"></i> <span>Edit Profile</span></a></li>
     </ul> -->
   </section>
