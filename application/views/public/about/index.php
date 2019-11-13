@@ -4,13 +4,47 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-10">
-            <span class="sub-text">Know Us</span>
+            
             <h1>About Us</h1>
           </div>
         </div>
       </div>
     </div>  
-    <div class="site-section about-section">
+	
+	<body>
+	<span>	
+	<center>
+<p>Ruang Respons adalah portal desain online yang menghubungkan orang-orang dengan desainer interior dalam sebuah platform unik.</p>
+<p>Di Ruang Respons, kami percaya bahwa semua orang layak mendapatkan desain ruang yang bagus.</p>
+<p>Mulai dari bagian yang paling intim seperti kamar tidur hingga fungsi ruang kerja.</p>
+
+<p>Ruang Respons adalah katalog design yang menampilkan tren terkini dan berbagai informasi dari dunia arsitektur, interior dan eksterior Indonesia.</p>
+<p>Sehingga bisa menjadi referensi bagi pembaca dalam merencakan sebuah hunian.</p>
+
+<p>Ruang Respons memberikan referensi bagi para pembaca dan menjadi sebuah platform yang menghubungkan antara para pemilik hunian</p> 
+<p>Dengan para profesional melalui referensi yang memperluas pembaca tentang profil dan pencapaian para arsitek.</p>
+<p>Untuk memastikan informasi yang sesuai dengan kebutuhan para pembaca, kami menyediakan layanan comment section untuk pendapat mengenai arsitektur.</p>
+	
+	</center>
+	</span>
+	</body>
+	</div>
+
+			<center> <h3>Pendiri / CEO</h3>
+			<p>Andhun Hariyadi Raharjo</p>
+
+						<div class="col-lg-3 col-md-6 mb-4">
+            	<div class="person">
+              	<div class="bio-img">
+                	<figure>
+                  	<img src="webinterior/assets/img/User-icon.png" alt="Image" class="img-fluid">
+                	</figure>
+						</div>
+							</div>
+								</div>	
+								</center>
+
+    <!--<div class="site-section about-section">
       <div class="container">
         <div class="row align-items-center mb-5 pb-5">
           <div class="col-lg-7 img-years mb-5 mb-lg-0">
@@ -26,11 +60,11 @@
             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate fuga ipsum commodi aliquid aspernatur reiciendis enim cum voluptas id itaque, asperiores modi, voluptatibus sed voluptate nulla et ratione aliquam! Quaerat.</p>
             <p><a href="#" class="btn btn-primary btn-lg rounded-0">Read More About Us</a></p>
           </div>
-        </div>
+        </div> 
 
         
       </div>
-    </div>
+    </div> -->
     
     <div class="site-section">
       <div class="container">
@@ -115,7 +149,7 @@
     </div>
 
 
-    <div class="site-half">
+    <!-- <div class="site-half">
       <div class="img-bg-1" style="background-image: url('images/hero_bg_1.jpg');"></div>
       <div class="container">
         <div class="row no-gutters align-items-stretch">
@@ -135,4 +169,4 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
