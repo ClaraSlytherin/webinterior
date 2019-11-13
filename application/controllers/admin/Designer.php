@@ -15,7 +15,10 @@ class Designer extends CI_Controller
 
     public function index()
     {
-        $this->load->view('admin/templates/index');
+        $data['title'] = 'Designer - Page';
+        $data['judul'] = 'Designer';
+        $data['content'] = 'admin/designer';
+        $this->load->view('admin/templates/index', $data);
     }
 
     // public function addItem()
