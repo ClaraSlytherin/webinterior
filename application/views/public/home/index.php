@@ -209,7 +209,7 @@
               <img src="assets/front/images/img_2.jpg" alt="Image" class="img-fluid">
             </div>
           </div>
-          <div class="col-lg-6">
+          <!-- <div class="col-lg-6">
             <div class="row row-items">
               <div class="col-6">
                 <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
@@ -220,7 +220,7 @@
                     <h3>Pool Decor</h3>
                   </span>
                 </a>
-              </div>
+              </div> -->
               <div class="col-6">
                 <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
                   <span class="align-self-center w-100">
