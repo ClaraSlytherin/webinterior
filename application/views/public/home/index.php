@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row align-items-center text-center justify-content-center">
           <div class="col-md-8">
-            <span class="sub-text">Interior Design Company</span>
+            <span class="sub-text">Perusahaan Desain Interior</span>
             <h1>Experience Interior Design</h1>
           </div>
         </div>
