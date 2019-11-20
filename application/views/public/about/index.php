@@ -4,8 +4,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-10">
-            <span class="sub-text">Know Us</span>
-            <h1>About Us</h1>
+            <h1>Tentang Kami</h1>
           </div>
         </div>
       </div>
@@ -15,8 +14,8 @@
         <div class="row align-items-center mb-5 pb-5">
           <div class="col-lg-7 img-years mb-5 mb-lg-0">
             <span class="experience">
-              <span class="years">27 yrs.</span>
-              <span class="caption">of Experience</span>
+              <span class="years">27 Thn.</span>
+              <span class="caption">Pengalaman</span>
             </span>
             <img src="images/about_1.png" alt="Image" class="img-fluid">
           </div>
