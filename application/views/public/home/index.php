@@ -263,8 +263,8 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <span class="sub-title">News &amp; Update</span>
-            <h2 class="font-weight-bold text-black mb-5">Our Blog Posts</h2>
+            <span class="sub-title">Berita</span>
+            <h2 class="font-weight-bold text-black mb-5">Postingan Blog Kami</h2>
           </div>
         </div>
         <div class="row mb-5">
@@ -293,7 +293,7 @@
         </div>
         <div class="row mt-5 text-center">
           <div class="col-12">
-            <p><a href="#" class="btn btn-primary btn-lg rounded-0">View All Posts</a></p>
+            <p><a href="#" class="btn btn-primary btn-lg rounded-0">Lihat Semua Post</a></p>
           </div>
         </div>
       </div>
