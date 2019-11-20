@@ -164,8 +164,8 @@
 
       <div class="row">
         <div class="col-12 text-center">
-          <span class="sub-title">Happy Clients</span>
-          <h2 class="font-weight-bold text-black mb-5">Testimonials</h2>
+          <span class="sub-title">Klien Kami</span>
+          <h2 class="font-weight-bold text-black mb-5">Testimoni</h2>
         </div>
       </div>
 
@@ -209,10 +209,10 @@
               <img src="assets/front/images/img_2.jpg" alt="Image" class="img-fluid">
             </div>
           </div>
-          <!-- <div class="col-lg-6">
+          <div class="col-lg-6">
             <div class="row row-items">
               <div class="col-6">
-                <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
+                <!-- <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
                   <span class="align-self-center w-100">
                     <span class="d-block mb-3">
                       <span class="flaticon-step-ladder display-3"></span>
@@ -227,7 +227,7 @@
                     <span class="d-block mb-3">
                       <span class="flaticon-sit-down display-3"></span>
                     </span>
-                    <h3>Seat Decor</h3>
+                    <h3>Dekorasi Kursi</h3>
                   </span>
                 </a>
               </div>
@@ -239,7 +239,7 @@
                     <span class="d-block mb-3">
                       <span class="flaticon-turned-off display-3"></span>
                     </span>
-                    <h3>Intuitive Idea</h3>
+                    <h3>Ide Intuitif</h3>
                   </span>
                 </a>
               </div>
@@ -249,7 +249,7 @@
                     <span class="d-block mb-3">
                       <span class="flaticon-window display-3"></span>
                     </span>
-                    <h3>Decorations</h3>
+                    <h3>Dekorasi</h3>
                   </span>
                 </a>
               </div>
