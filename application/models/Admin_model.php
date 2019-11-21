@@ -10,7 +10,7 @@ class Admin_model extends CI_Model
     {
         $this->db->select('*');
         $this->db->from('tabel_item');
-        // $this->db->join('kategori_produk', 'produk.id_kategori = kategori_produk.id_kategori');
+        $this->db->join('kategori_produk', 'tabel_item.id_kategori = kategori_produk.id_kategori');
         return $query = $this->db->get()->result_array();
     }
 
@@ -34,7 +34,7 @@ class Admin_model extends CI_Model
 
     public function getById($id = '')
     {
-        $query = $this->db->query("SELECT * FROM tabel_item WHERE id_item = '$id'");
+        $query = $this->db->query("SELECT * FROM tabel_item JOIN kategori_produk ON tabel_item.id_kategori = kategori_produk.id_kategori WHERE id_item = '$id'");
         // $this->db->get_where($table, array($key => $id))->result_array();
         return $query->result_array();
     }

@@ -24,11 +24,12 @@ class Item extends CI_Controller
 
     public function addItem()
     {
+        $this->form_validation->set_rules('id_kategori', 'Id-Kategori', 'required');
         $this->form_validation->set_rules('nama_desain', 'Nama Desain', 'required');
         $this->form_validation->set_rules('deskripsi', 'Deskripsi', 'required');
 
         if ($this->form_validation->run() == FALSE) {
-            // $data['category'] = $this->Admin_model->getAll('tabel_item');
+            $data['category'] = $this->Admin_model->getAll('kategori_produk');
             $data['title'] = 'Item - Page';
             $data['judul'] = 'Form Add Item';
             $data['content'] = 'admin/additem';
@@ -45,6 +46,7 @@ class Item extends CI_Controller
                 $img = $this->upload->data();
                 $foto = $img['file_name'];
                 $items = [
+                    "id_kategori" => $this->input->post('id_kategori', true),
                     "nama_desain" => $this->input->post('nama_desain', true),
                     "gambar" => $foto,
                     "deskripsi" => $this->input->post('deskripsi', true)
@@ -85,10 +87,12 @@ class Item extends CI_Controller
 
         $id = $this->uri->segment(4);
         $data['item'] = $this->Admin_model->getById($id);
+        $this->form_validation->set_rules('id_kategori', 'Id-Kategori', 'required');
         $this->form_validation->set_rules('nama_desain', 'Nama Desain', 'required');
         $this->form_validation->set_rules('deskripsi', 'Deskripsi', 'required');
 
         if ($this->form_validation->run() == FALSE) {
+            $data['category'] = $this->Admin_model->getAll('kategori_produk');
             $data['title'] = 'Item - Page';
             $data['judul'] = 'Form Ubah Item';
             $data['content'] = 'admin/edititem';
@@ -96,6 +100,7 @@ class Item extends CI_Controller
         } else {
 
             $id_item = $this->input->post('id_item');
+            $id_kategori = $this->input->post('id_kategori');
             $nama_desain = $this->input->post('nama_desain');
             $deskripsi = $this->input->post('deskripsi');
 
@@ -110,6 +115,7 @@ class Item extends CI_Controller
                 $img = $this->upload->data();
                 $foto = $img['file_name'];
                 $data = [
+                    "id_kategori" => $id_kategori,
                     "nama_desain" => $nama_desain,
                     "gambar" => $foto,
                     "deskripsi" => $deskripsi
