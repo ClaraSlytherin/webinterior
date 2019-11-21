@@ -1,5 +1,5 @@
 
-    <div class="site-section bg-light">
+    <div class="site-section bg-green">
       <div class="container">
         <div class="row">
           
@@ -11,14 +11,14 @@
 
               <div class="row form-group">
                 <div class="col-md-12 mb-3 mb-md-0">
-                  <label class="font-weight-bold" for="fullname">Full Name</label>
-                  <input type="text" id="fullname" class="form-control" placeholder="Full Name">
+                  <label class="font-weight-bold" for="fullname">Nama Lengkap</label>
+                  <input type="text" id="fullname" class="form-control" placeholder="Nama Lengkap">
                 </div>
               </div>
               <div class="row form-group">
                 <div class="col-md-12">
                   <label class="font-weight-bold" for="email">Email</label>
-                  <input type="email" id="email" class="form-control" placeholder="Email Address">
+                  <input type="email" id="email" class="form-control" placeholder="Alamat Email">
                 </div>
               </div>
 
@@ -26,8 +26,8 @@
 
               <div class="row form-group">
                 <div class="col-md-12">
-                  <label class="font-weight-bold" for="message">Message</label> 
-                  <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Say hello to us"></textarea>
+                  <label class="font-weight-bold" for="message">Pesan</label> 
+                  <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Isi Pesan"></textarea>
                 </div>
               </div>
 

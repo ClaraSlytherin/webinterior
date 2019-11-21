@@ -4,7 +4,7 @@
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <div class="row mb-5">
                     <div class="col-md-12">
-                        <h3 class="footer-heading mb-4">Navigation</h3>
+                        <h3 class="footer-heading mb-4">Navigasi</h3>
                     </div>
                     <div class="col-md-6 col-lg-6">
                         <ul class="list-unstyled">
@@ -30,7 +30,7 @@
 
 
                 <div class="mb-5">
-                    <h3 class="footer-heading mb-4">Recent News</h3>
+                    <h3 class="footer-heading mb-4">Berita Terbaru</h3>
                     <div class="block-25">
                         <ul class="list-unstyled">
                             <li class="mb-3">
@@ -81,7 +81,7 @@
 
                     <form action="#" method="post">
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control border-white text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                            <input type="text" class="form-control border-white text-white bg-transparent" placeholder="Masukkan Email" aria-label="Masukkan Email" aria-describedby="button-addon2">
                             <div class="input-group-append">
                                 <button class="btn btn-primary" type="button" id="button-addon2">Send</button>
                             </div>
@@ -92,7 +92,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="footer-heading mb-4">Follow Us</h3>
+                        <h3 class="footer-heading mb-4">Ikuti Kami</h3>
 
                         <div>
                             <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>

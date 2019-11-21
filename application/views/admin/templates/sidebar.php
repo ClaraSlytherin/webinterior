@@ -8,7 +8,7 @@
       </div>
       <div class="pull-left info">
         <?php if (isset($_SESSION['email'])) { ?>
-          <p><?= ($_SESSION['name']) ?></p>
+          <p><?= ($_SESSION['nama']) ?></p>
           <a><i class="fa fa-circle text-success"></i> Online</a>
         <?php } else { ?>
           <p>Anon</p>
