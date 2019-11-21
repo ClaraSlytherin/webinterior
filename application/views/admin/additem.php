@@ -9,10 +9,23 @@
             <div class="box-body">
 
 
-            
+
 
                 <form class="form-horizontal form-label-left" action="<?= base_url('') ?>admin/item/additem" enctype="multipart/form-data" method="post">
 
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-2 col-xs-12">Kategori</label>
+                        <div class="col-md-4 col-sm-6">
+                            <select name="id_kategori" class="form-control">
+                                <option value="">--Pilih Kategori--</option>
+                                <?php foreach ($category as $kategori) : ?>
+                                    <option value="<?= $kategori['id_kategori'] ?>"><?= $kategori['nama_kategori'] ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            </select>
+                            <small class="form-text text-danger"><?= form_error('id_kategori'); ?></small>
+                        </div>
+                    </div>
                     <div class="form-group">
                         <label class="control-label col-md-2 col-sm-2 col-xs-12">Nama Item
                         </label>

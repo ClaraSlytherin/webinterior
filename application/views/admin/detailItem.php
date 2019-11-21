@@ -17,6 +17,10 @@
                     <div class="col-md-6 col-sm-6">
                         <table class="table table-striped">
                             <tr>
+                                <td>Kategori</td>
+                                <td>: <?= $detail['nama_kategori'] ?></td>
+                            </tr>
+                            <tr>
                                 <td>Nama Desain</td>
                                 <td>: <?= $detail['nama_desain'] ?></td>
                             </tr>

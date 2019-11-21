@@ -16,6 +16,7 @@
                     <thead>
                         <tr>
                             <th>No</th>
+                            <th>Kategori</th>
                             <th>Nama</th>
                             <th>Deskripsi</th>
                             <th>Aksi</th>
@@ -26,6 +27,7 @@
                         <?php foreach ($item as $produk) : ?>
                             <tr>
                                 <td><?php echo $nomor ?></td>
+                                <td><?php echo $produk['nama_kategori'] ?></td>
                                 <td><?php echo $produk['nama_desain'] ?></td>
                                 <td><?php echo $produk['deskripsi'] ?></td>
                                 <td>
