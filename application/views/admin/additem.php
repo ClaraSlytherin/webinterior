@@ -8,6 +8,9 @@
             <!-- /.box-header -->
             <div class="box-body">
 
+
+            
+
                 <form class="form-horizontal form-label-left" action="<?= base_url('') ?>admin/item/additem" enctype="multipart/form-data" method="post">
 
                     <div class="form-group">
