@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 13, 2019 at 03:06 AM
+-- Generation Time: Nov 21, 2019 at 04:01 AM
 -- Server version: 5.5.32
 -- PHP Version: 5.4.16
 
@@ -48,18 +48,14 @@ CREATE TABLE IF NOT EXISTS `data_admin` (
   `password` varchar(100) NOT NULL,
   `is_active` int(1) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `data_admin`
 --
 
 INSERT INTO `data_admin` (`id`, `email`, `nama`, `password`, `is_active`) VALUES
-(1, 'irham@gmail.com', 'irhamrizaldy', '$2y$10$h.4X0oA5SlEP9fKX0c3Smu2KawDItFu8iQX9RkyqJ3q', 1),
-(2, 'admin@gmail.com', 'administrator', '$2y$10$g9.6Uqv0NlmQHy/q9mNq5e7QZMzrm7Ttm/9xZiWizj3', 1),
-(3, 'yoga@gmail.com', 'yoga', '12345678', 1),
-(4, 'dhandy@gmail.com', 'dhandy', '$2y$10$2XVkg34weIiSa2lbeidmI.GnLl6ynwEm1q4ksZI9AY.oBErCOQGFq', 1),
-(5, 'irham12@gmail.com', 'irhamrizaldy', '$2y$10$6xhEsvsROwT71DCAyN.pJulQpXeqI6D0dNdfQ3OEkSOaGte6Q.CJO', 1);
+(6, 'admin@gmail.com', 'administrator', '$2y$10$ZZq75HKjOYIu0hxnnoJXS.H5uoL9j..162T7zXcPXscxhG5lnnLvu', 1);
 
 -- --------------------------------------------------------
 
@@ -79,23 +75,66 @@ CREATE TABLE IF NOT EXISTS `data_designer` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `kategori_produk`
+--
+
+CREATE TABLE IF NOT EXISTS `kategori_produk` (
+  `id_kategori` int(11) NOT NULL AUTO_INCREMENT,
+  `nama_kategori` varchar(100) NOT NULL,
+  PRIMARY KEY (`id_kategori`),
+  KEY `id_kategori` (`id_kategori`),
+  KEY `id_kategori_2` (`id_kategori`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+
+--
+-- Dumping data for table `kategori_produk`
+--
+
+INSERT INTO `kategori_produk` (`id_kategori`, `nama_kategori`) VALUES
+(1, 'Bedroom'),
+(2, 'Cafe'),
+(3, 'Resepsionis'),
+(4, 'Ruang Karaoke'),
+(5, 'Rumah');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `tabel_item`
 --
 
 CREATE TABLE IF NOT EXISTS `tabel_item` (
   `id_item` int(11) NOT NULL AUTO_INCREMENT,
+  `id_kategori` int(11) NOT NULL,
   `nama_desain` varchar(50) NOT NULL,
   `gambar` varchar(50) NOT NULL,
   `deskripsi` text NOT NULL,
-  PRIMARY KEY (`id_item`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+  PRIMARY KEY (`id_item`),
+  KEY `id_kategori` (`id_kategori`),
+  KEY `id_kategori_2` (`id_kategori`),
+  KEY `id_kategori_3` (`id_kategori`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
 
 --
 -- Dumping data for table `tabel_item`
 --
 
-INSERT INTO `tabel_item` (`id_item`, `nama_desain`, `gambar`, `deskripsi`) VALUES
-(4, 'Kamar', 'hotdog.png', 'Night');
+INSERT INTO `tabel_item` (`id_item`, `id_kategori`, `nama_desain`, `gambar`, `deskripsi`) VALUES
+(5, 1, 'Bedroom-1', 'BEDROM.jpg', 'Bedroom Number 1'),
+(6, 2, 'Cafe-1', 'diit.jpg', 'Cafe-1'),
+(7, 3, 'Resepsionis-1', 'RESEPSIONIIS.jpg', 'Resepsionis-1'),
+(8, 4, 'Ruang Karaoke-1', 'RUANG_KARAOKE.jpg', 'Ruang Karaoke-1'),
+(9, 5, 'Rumah-1', 'LIVING_ROOM.jpg', 'Rumah-1');
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `tabel_item`
+--
+ALTER TABLE `tabel_item`
+  ADD CONSTRAINT `tabel_item_ibfk_1` FOREIGN KEY (`id_kategori`) REFERENCES `kategori_produk` (`id_kategori`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
