@@ -1,9 +1,9 @@
 <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-      <b>Version</b> 2.4.0
-    </div>
-    <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
-    reserved.
+  <div class="pull-right hidden-xs">
+    <b>Version</b> 2.4.0
+  </div>
+  <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Ruang Respons</a>.</strong> All rights
+  reserved.
 </footer>
 
 
@@ -49,14 +49,14 @@
 <script src="<?= base_url('assets/back/') ?>bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
 <script src="<?= base_url('assets/back/') ?>bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
 <script>
-  $(function () {
+  $(function() {
     $('#example2').DataTable({
-      'paging'      : true,
+      'paging': true,
       'lengthChange': true,
-      'searching'   : true,
-      'ordering'    : true,
-      'info'        : true,
-      'autoWidth'   : false
+      'searching': true,
+      'ordering': true,
+      'info': true,
+      'autoWidth': false
     })
   })
 </script>
