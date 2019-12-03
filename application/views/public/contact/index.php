@@ -46,8 +46,8 @@
 
     <div class="container site-section block-13 testimonial-wrap">
 
-		<h1>My First Google Map</h1>
-		<div id="googleMap" style="width:100%;height:400px;"></div>
+		<h1>Temukan Kami</h1>
+		<!-- <div id="googleMap" style="width:100%;height:400px;"></div> -->
 
 		<!-- <script>
 			function myMap() {

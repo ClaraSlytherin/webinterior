@@ -9,29 +9,34 @@
         </div>
       </div>
     </div>  
-	
-	<body>
-	<span>	
-	<center>
-<p>Ruang Respons adalah portal desain online yang menghubungkan orang-orang dengan desainer interior dalam sebuah platform unik.</p>
-<p>Di Ruang Respons, kami percaya bahwa semua orang layak mendapatkan desain ruang yang bagus.</p>
-<p>Mulai dari bagian yang paling intim seperti kamar tidur hingga fungsi ruang kerja.</p>
 
-<p>Ruang Respons adalah katalog design yang menampilkan tren terkini dan berbagai informasi dari dunia arsitektur, interior dan eksterior Indonesia.</p>
-<p>Sehingga bisa menjadi referensi bagi pembaca dalam merencakan sebuah hunian.</p>
+	<p class="font_8" style="font-size:18px; line-height:1.6em; text-align:center;">
+		<span style="font-family:wfont_07d31d_7d12534e075c47c7940712450ea83648,wf_7d12534e075c47c7940712450,orig_gothamroundedlight;">
+			<span style="font-size:20px;">
+				<span style="letter-spacing:0em;">
+					<span style="color:#20303C;">
+						Ruang Respons adalah katalog design yang menampilkan tren terkini dan berbagai informasi dari dunia arsitektur, interior dan eksterior Indonesia.
+						Sehingga bisa menjadi referensi bagi pembaca dalam merencakan sebuah hunian.
+					</span>
+				</span>
+			</span>
+		</span>
+	</p>
 
-<p>Ruang Respons memberikan referensi bagi para pembaca dan menjadi sebuah platform yang menghubungkan antara para pemilik hunian</p> 
-<p>Dengan para profesional melalui referensi yang memperluas pembaca tentang profil dan pencapaian para arsitek.</p>
-<p>Untuk memastikan informasi yang sesuai dengan kebutuhan para pembaca, kami menyediakan layanan comment section untuk pendapat mengenai arsitektur.</p>
-	
-	</center>
-	</span>
-	</body>
+	<div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <span class="sub-title">Creative Director</span>
+            <h2 class="font-weight-bold text-black mb-5">Andhun Hariyadi</h2>
+									<figure>
+                  	<img src="<?= base_url()?>/assets/img/admin/User-icon.png" alt="Image" class="img-fluid">
+                	</figure>
+          </div>
+        </div>
+			</div>
 	</div>
-
-			<center> <h3>Pendiri / CEO</h3>
-			<p>Andhun Hariyadi Raharjo</p>
-
+<!-- 				
 						<div class="col-lg-3 col-md-6 mb-4">
             	<div class="person">
               	<div class="bio-img">
@@ -41,7 +46,7 @@
 						</div>
 							</div>
 								</div>	
-								</center>
+								</center> -->
 
     <!--<div class="site-section about-section">
       <div class="container">
