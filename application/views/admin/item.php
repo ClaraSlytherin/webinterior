@@ -15,11 +15,11 @@
                 <table id="example2" class="table table-bordered table-hover">
                     <thead>
                         <tr>
-                            <th>No</th>
+                            <th width="5%">No</th>
                             <th>Kategori</th>
                             <th>Nama</th>
                             <th>Deskripsi</th>
-                            <th>Aksi</th>
+                            <th width="19%">Aksi</th>
                         </tr>
                     </thead>
                     <tbody>

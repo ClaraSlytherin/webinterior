@@ -2,7 +2,7 @@
     <div class="col-xs-12">
         <div class="box">
             <div class="box-header">
-                <h3 class="box-title">Details Designer</h3>
+                <h3 class="box-title">Detail Designer</h3>
                 <hr>
                 <div class="flash-data" data-flashdata="<?= $this->session->flashdata('flash'); ?>"></div>
                 <?php if ($this->session->flashdata('flash')) : ?>
