@@ -36,7 +36,7 @@
             	<div class="person">
               	<div class="bio-img">
                 	<figure>
-                  	<img src="webinterior/assets/img/admin/User-icon.png" alt="Image" class="img-fluid">
+                  	<img src="<?= base_url()?>/assets/img/admin/User-icon.png" alt="Image" class="img-fluid">
                 	</figure>
 						</div>
 							</div>
@@ -79,7 +79,7 @@
             <div class="person">
               <div class="bio-img">
                 <figure>
-                  <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+                  <img src="<?= base_url()?>/assets/img/product/Admin-128.png" alt="Image" class="img-fluid">
                 </figure>
                 <div class="social">
                   <a href="#"><span class="icon-facebook"></span></a>
@@ -96,7 +96,7 @@
             <div class="person">
               <div class="bio-img">
                 <figure>
-                  <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+                  <img src="<?= base_url()?>/assets/img/product/Admin-128.png" alt="Image" class="img-fluid">
                 </figure>
                 <div class="social">
                   <a href="#"><span class="icon-facebook"></span></a>
@@ -113,7 +113,7 @@
             <div class="person">
               <div class="bio-img">
                 <figure>
-                  <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+                  <img src="<?= base_url()?>/assets/img/product/Admin-128.png" alt="Image" class="img-fluid">
                 </figure>
                 <div class="social">
                   <a href="#"><span class="icon-facebook"></span></a>
@@ -130,7 +130,7 @@
             <div class="person">
               <div class="bio-img">
                 <figure>
-                  <img src="images/person_4.jpg" alt="Image" class="img-fluid">
+                  <img src="<?= base_url()?>/assets/img/product/Admin-128.png" alt="Image" class="img-fluid">
                 </figure>
                 <div class="social">
                   <a href="#"><span class="icon-facebook"></span></a>
@@ -146,6 +146,8 @@
         </div>
       </div>
     </div>
+
+		
 
 
     <!-- <div class="site-half">
