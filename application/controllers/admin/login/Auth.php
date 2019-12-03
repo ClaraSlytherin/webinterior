@@ -31,6 +31,8 @@ class Auth extends CI_Controller
         $email = $this->input->post('email');
         $password = $this->input->post('password');
 
+
+
         $admin = $this->db->get_where('data_admin', ['email' => $email])->row_array();
 
         // jika adminnya ada

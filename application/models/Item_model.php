@@ -21,7 +21,7 @@ class Item_model extends CI_model
     public function getAllItem()
     {
 
-        $query = $this->db->query('SELECT * FROM tabel_item');
+        $query = $this->db->query('SELECT * FROM tabel_item JOIN kategori_produk ON tabel_item.id_kategori = kategori_produk.id_kategori');
 
         return $query->result_array();
     }
