@@ -2,9 +2,9 @@
   <!-- Logo -->
   <a href="<?= base_url() ?>admin" class="logo">
     <!-- mini logo for sidebar mini 50x50 pixels -->
-    <span class="logo-mini"><b>Zen</b></span>
+    <span class="logo-mini"><b>RR</b></span>
     <!-- logo for regular state and mobile devices -->
-    <span class="logo-lg"><b>Zen</b>AI</span>
+    <span class="logo-lg"><b>Ruang</b>Respons</span>
   </a>
   <!-- Header Navbar: style can be found in header.less -->
   <nav class="navbar navbar-static-top">

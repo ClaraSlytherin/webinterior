@@ -6,12 +6,12 @@ if ($tabel_item) {
         <div class="row">
             <div class="col-lg-3 col-xs-6">
                 <!-- small box -->
-                <div class="small-box bg-aqua">
+                <div class="small-box bg-orange">
                     <div class="inner">
 
                         <h3><?php echo $total->total ?></h3>
 
-                        <p>Orders</p>
+                        <p>Data Item</p>
                     </div>
                     <div class="icon">
                         <i class="ion ion-bag"></i>
@@ -31,7 +31,7 @@ if ($tabel_item) {
             ?>
             <div class="col-lg-3 col-xs-6">
                 <!-- small box -->
-                <div class="small-box bg-green">
+                <div class="small-box bg-yellow">
                     <div class="inner">
                         <h3><?php echo $total->total ?></h3>
                         <p>Data Designer</p>
