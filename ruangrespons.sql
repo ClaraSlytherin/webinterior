@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 21, 2019 at 04:01 AM
+-- Generation Time: Dec 03, 2019 at 01:18 PM
 -- Server version: 5.5.32
 -- PHP Version: 5.4.16
 
@@ -66,11 +66,18 @@ INSERT INTO `data_admin` (`id`, `email`, `nama`, `password`, `is_active`) VALUES
 CREATE TABLE IF NOT EXISTS `data_designer` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `email` varchar(50) NOT NULL,
-  `nama` int(50) NOT NULL,
+  `nama` varchar(50) NOT NULL,
   `foto` varchar(50) DEFAULT NULL,
   `deskripsi` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+
+--
+-- Dumping data for table `data_designer`
+--
+
+INSERT INTO `data_designer` (`id`, `email`, `nama`, `foto`, `deskripsi`) VALUES
+(5, 'irhamrizaldy@gmail.com', 'Irham Rizaldy', '888171_night_512x512.png', 'Admin');
 
 -- --------------------------------------------------------
 
