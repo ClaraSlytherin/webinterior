@@ -14,6 +14,14 @@ class Designer_model extends CI_Model
         return $query = $this->db->get()->result_array();
     }
 
+    public function getJoinTransaction()
+    {
+        $this->db->select('*');
+        $this->db->from('data_designer');
+        // $this->db->join('data_designer', 'data_designer.id = tabel_item.id_item');
+        return $query = $this->db->get()->result_array();
+    }
+
     public function getAll($table = '')
     {
         return $this->db->get($table)->result_array();
@@ -31,10 +39,72 @@ class Designer_model extends CI_Model
         return $query->result_array();
     }
 
+    public function getTscById($id = '')
+    {
+        $query = $this->db->query("SELECT * FROM data_designer WHERE id = '$id'");
+        // $this->db->get_where($table, array($key => $id))->result_array();
+        return $query->result_array();
+    }
+
     public function delete($id)
     {
         $this->db->delete('data_designer', ['id' => $id]);
     }
+
+    // public function deleteTsc($id)
+    // {
+    //     $this->db->delete('pembelian', ['id_pembelian' => $id]);
+    // }
+
+    // public function tampilDataPembeli()
+    // {
+    //     return $this->db->get('pembelian');
+    // }
+
+    // public function updateStatus()
+    // {
+    //     $id = $_REQUEST['id'];
+    //     $vals = $_REQUEST['val'];
+
+    //     if ($vals == 1) {
+    //         $status = 0;
+    //     } else {
+    //         $status = 1;
+    //     }
+
+    //     $data = array(
+    //         'status' => $status
+    //     );
+    //     $this->db->where('id_pelanggan', $id);
+    //     return $this->db->update('pelanggan', $data);
+    // }
+
+    // public function updateStatusTsc()
+    // {
+    //     $id = $_REQUEST['id'];
+    //     $vals = $_REQUEST['val'];
+
+    //     if ($vals == 1) {
+    //         $statusTsc = 0;
+    //     } else {
+    //         $statusTsc = 1;
+    //     }
+
+    //     $data = array(
+    //         'statusTsc' => $statusTsc
+    //     );
+    //     $this->db->where('id_pembelian', $id);
+    //     return $this->db->update('pembelian', $data);
+    // }
+
+    // public function getCountItem()
+    // {
+    //     $this->db->select('tabel_item.id_item, count(tabel_item.id_item) as total');
+    //     $query = $this->db->get('tabel_item');
+    //     if ($query->num_rows() > 0) {
+    //         return $query->result();
+    //     }
+    // }
 
     public function getCountDesigner()
     {
