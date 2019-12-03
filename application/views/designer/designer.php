@@ -8,7 +8,7 @@
                                                         ?>"></div>
                 <?php if ($this->session->flashdata('flash')) : ?>
                 <?php endif; ?>
-                <a href="<?= base_url('') ?>admin/item/addItem" class="btn btn-primary">Add Item</a>
+                <a href="<?= base_url('') ?>admin/item/addItem" class="btn btn-primary">Add Person</a>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -16,7 +16,7 @@
                     <thead>
                         <tr>
                             <th>No</th>
-                            <th>Nama</th>
+                            <th>Nama Designer</th>
                             <!-- <th>Deskripsi</th> -->
                             <th>Aksi</th>
                         </tr>
