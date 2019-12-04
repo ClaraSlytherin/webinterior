@@ -20,7 +20,7 @@
               </div>
               <div class="text">
                 <h3>Arsitektur Interior</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
               </div>
             </a>
           </div>
@@ -31,7 +31,7 @@
               </div>
               <div class="text">
                 <h3>Desain Interior</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
               </div>
             </a>
           </div>
@@ -42,7 +42,7 @@
               </div>
               <div class="text">
                 <h3>Furniture</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
               </div>
             </a>
           </div>
@@ -59,7 +59,7 @@
               <div class="mr-3 icon"><span class="flaticon-interior-design display-4"></span></div>
               <div class="media-body">
                 <h5 class="mt-0">Solusi Kreatif</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..
+                <!-- Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.. -->
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@
               <div class="mr-3 icon"><span class="flaticon-step-ladder display-4"></span></div>
               <div class="media-body">
                 <h5 class="mt-0">Solusi Kreatif</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..
+                <!-- Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.. -->
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@
               <div class="mr-3 icon"><span class="flaticon-turned-off display-4"></span></div>
               <div class="media-body">
                 <h5 class="mt-0">Desain Intuitif</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..
+                <!-- Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.. -->
               </div>
             </div>
           </div>
