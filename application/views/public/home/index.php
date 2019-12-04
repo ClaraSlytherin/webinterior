@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row align-items-center text-center justify-content-center">
           <div class="col-md-8">
-            <span class="sub-text">Interior Design Company</span>
+            <span class="sub-text">Perusahaan Desain Interior</span>
             <h1>Experience Interior Design</h1>
           </div>
         </div>
@@ -19,7 +19,7 @@
                 <span class="icon flaticon-window font-weight-light h2"></span>
               </div>
               <div class="text">
-                <h3>Interior Architecture</h3>
+                <h3>Arsitektur Interior</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
             </a>
@@ -30,7 +30,7 @@
                 <span class="icon flaticon-measuring font-weight-light h2"></span>
               </div>
               <div class="text">
-                <h3>Interior Design</h3>
+                <h3>Desain Interior</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
             </a>
@@ -58,7 +58,7 @@
             <div class="media custom-media">
               <div class="mr-3 icon"><span class="flaticon-interior-design display-4"></span></div>
               <div class="media-body">
-                <h5 class="mt-0">Creative Solutions</h5>
+                <h5 class="mt-0">Solusi Kreatif</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..
               </div>
             </div>
@@ -69,7 +69,7 @@
             <div class="media custom-media">
               <div class="mr-3 icon"><span class="flaticon-step-ladder display-4"></span></div>
               <div class="media-body">
-                <h5 class="mt-0">Design Interior</h5>
+                <h5 class="mt-0">Solusi Kreatif</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..
               </div>
             </div>
@@ -79,7 +79,7 @@
             <div class="media custom-media">
               <div class="mr-3 icon"><span class="flaticon-turned-off display-4"></span></div>
               <div class="media-body">
-                <h5 class="mt-0">Intuitive Design</h5>
+                <h5 class="mt-0">Desain Intuitif</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..
               </div>
             </div>
@@ -100,15 +100,15 @@
             </div>
           </div>
           <div class="col-lg-5 ml-auto">
-            <span class="sub-title">Why Us</span>
-            <h2 class="font-weight-bold text-black mb-5">Why Us</h2>
+            <span class="sub-title">Alasana Memilih Kami?</span>
+            <h2 class="font-weight-bold text-black mb-5">Alasan Memilih Kami?</h2>
             <div class="accordion" id="accordionExample">
-
+            <!--
               <h2 class="mb-0 border rounded mb-2">
                 <button class="btn " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  1. What Should I Do If My Interior Broken?
+                  1. Apa Yang Harus Saya Lakukan Jika Interior Saya Rusak?
                 </button>
-              </h2>
+              </h2>-->
 
               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                 <div class="card-body">
@@ -116,9 +116,9 @@
                 </div>
               </div>
 
-              <h2 class="mb-0 border rounded mb-2">
+              <!--<h2 class="mb-0 border rounded mb-2">
                 <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  2. What Is Your Location?
+                  2. Dimana Lokasi Anda?
                 </button>
               </h2>
 
@@ -150,9 +150,9 @@
                 <div class="card-body">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quos incidunt, perspiciatis, ad saepe, magnam error adipisci vitae ut provident alias! Odio debitis error ipsum molestiae voluptas accusantium quibusdam animi, soluta explicabo asperiores aliquid, modi natus suscipit deleniti. Corrupti, autem.</p>
                 </div>
-              </div>
+              </div>-->
 
-            </div>
+            </div> 
 
           </div>
         </div>
@@ -164,8 +164,8 @@
 
       <div class="row">
         <div class="col-12 text-center">
-          <span class="sub-title">Happy Clients</span>
-          <h2 class="font-weight-bold text-black mb-5">Testimonials</h2>
+          <span class="sub-title">Klien Kami</span>
+          <h2 class="font-weight-bold text-black mb-5">Testimoni</h2>
         </div>
       </div>
 
@@ -212,7 +212,7 @@
           <div class="col-lg-6">
             <div class="row row-items">
               <div class="col-6">
-                <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
+                <!-- <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
                   <span class="align-self-center w-100">
                     <span class="d-block mb-3">
                       <span class="flaticon-step-ladder display-3"></span>
@@ -220,14 +220,14 @@
                     <h3>Pool Decor</h3>
                   </span>
                 </a>
-              </div>
+              </div> -->
               <div class="col-6">
                 <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
                   <span class="align-self-center w-100">
                     <span class="d-block mb-3">
                       <span class="flaticon-sit-down display-3"></span>
                     </span>
-                    <h3>Seat Decor</h3>
+                    <h3>Dekorasi Kursi</h3>
                   </span>
                 </a>
               </div>
@@ -239,7 +239,7 @@
                     <span class="d-block mb-3">
                       <span class="flaticon-turned-off display-3"></span>
                     </span>
-                    <h3>Intuitive Idea</h3>
+                    <h3>Ide Intuitif</h3>
                   </span>
                 </a>
               </div>
@@ -249,7 +249,7 @@
                     <span class="d-block mb-3">
                       <span class="flaticon-window display-3"></span>
                     </span>
-                    <h3>Decorations</h3>
+                    <h3>Dekorasi</h3>
                   </span>
                 </a>
               </div>
@@ -263,8 +263,8 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <span class="sub-title">News &amp; Update</span>
-            <h2 class="font-weight-bold text-black mb-5">Our Blog Posts</h2>
+            <span class="sub-title">Berita</span>
+            <h2 class="font-weight-bold text-black mb-5">Postingan Blog Kami</h2>
           </div>
         </div>
         <div class="row mb-5">
@@ -293,7 +293,7 @@
         </div>
         <div class="row mt-5 text-center">
           <div class="col-12">
-            <p><a href="#" class="btn btn-primary btn-lg rounded-0">View All Posts</a></p>
+            <p><a href="#" class="btn btn-primary btn-lg rounded-0">Lihat Semua Post</a></p>
           </div>
         </div>
       </div>

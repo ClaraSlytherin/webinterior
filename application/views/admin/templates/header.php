@@ -2,9 +2,9 @@
   <!-- Logo -->
   <a href="<?= base_url() ?>admin" class="logo">
     <!-- mini logo for sidebar mini 50x50 pixels -->
-    <span class="logo-mini"><b>Zen</b></span>
+    <span class="logo-mini"><b>RR</b></span>
     <!-- logo for regular state and mobile devices -->
-    <span class="logo-lg"><b>Zen</b>AI</span>
+    <span class="logo-lg"><b>Ruang</b>Respons</span>
   </a>
   <!-- Header Navbar: style can be found in header.less -->
   <nav class="navbar navbar-static-top">
@@ -20,12 +20,16 @@
         <!-- User Account: style can be found in dropdown.less -->
         <li class="dropdown user user-menu">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <img src="<?= base_url('assets/back/') ?>dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-            <span class="hidden-xs">Hi, Admin</span>
+            <?php if (isset($_SESSION['email'])) { ?>
+              <img src="<?= base_url('assets/back/') ?>dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+              <span class="hidden-xs">Hi, <?= ($_SESSION['nama']) ?></span>
           </a>
-          <!-- <li><a href="#">Logout </a></li> -->
-        </li>
-        <!-- Control Sidebar Toggle Button -->
+        <li><a href="<?= base_url() ?>admin/login/auth/logout">Logout </a></li>
+      <?php } else { ?>
+        <li><a href="<?= base_url(); ?>admin/login/auth/index">Log In </a></li>
+      <?php } ?>
+      </li>
+      <!-- Control Sidebar Toggle Button -->
 
       </ul>
     </div>

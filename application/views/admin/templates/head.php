@@ -4,9 +4,10 @@
 <head>
 
   <head>
+    <link rel="icon" type="image/x-icon" href="<?= base_url() ?>/assets/front/images/favicon.ico" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Admin Page</title>
+    <title><?= $title; ?></title>
 
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -23,7 +24,7 @@
 
     <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="<?= base_url('assets/back/') ?>dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="<?= base_url('assets/back/') ?>dist/css/skins/skin-red.min.css">
     <!-- Morris chart -->
     <link rel="stylesheet" href="<?= base_url('assets/back/') ?>bower_components/morris.js/morris.css">
     <!-- jvectormap -->

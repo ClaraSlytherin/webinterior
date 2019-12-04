@@ -5,7 +5,7 @@
 
 <?php $this->load->view('admin/templates/head'); ?>
 
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-red sidebar-mini">
   <div class="wrapper">
 
     <?php $this->load->view('admin/templates/header'); ?>
@@ -19,7 +19,7 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Design Interior Admin Page
+          <?php echo $judul ?>
           <!-- <small>Control panel</small> -->
         </h1>
 
@@ -28,7 +28,7 @@
       <!-- Main content -->
       <section class="content">
         <!-- Small boxes (Stat box) -->
-        <!-- <?php $this->load->view($content); ?> -->
+        <?php $this->load->view($content); ?>
         <!-- /.row -->
         <!-- Main row -->
 
