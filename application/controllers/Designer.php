@@ -11,6 +11,5 @@ class Designer extends CI_Controller
         $this->load->view('public/templates/header');
         $this->load->view('public/designer/index');
         $this->load->view('public/templates/footer');
-        
     }
 }
