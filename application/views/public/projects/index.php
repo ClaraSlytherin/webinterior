@@ -15,46 +15,46 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4 project-entry">
             <a href="#" class="d-block figure">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+              <img src="assets/front/images/Bedroom/BEDROM.jpg" alt="Image" class="img-fluid">
             </a>
-            <h3 class="mb-0"><a href="#">Project Name 1</a></h3>
+            <h3 class="mb-0"><a href="#">Bedroom</a></h3>
             <span class="text-muted">Interior</span>
           </div>
           <div class="col-lg-4 col-md-6 mb-4 project-entry">
             <a href="#" class="d-block figure">
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
+              <img src="assets/front/images/Cafe/diit.jpg" alt="Image" class="img-fluid">
             </a>
-            <h3 class="mb-0"><a href="#">Project Name 2</a></h3>
-            <span class="text-muted">Design</span>
+            <h3 class="mb-0"><a href="#">Cafe</a></h3>
+            <span class="text-muted">Interior</span>
           </div>
           <div class="col-lg-4 col-md-6 mb-4 project-entry">
             <a href="#" class="d-block figure">
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
+              <img src="assets/front/images/Ruang Karaoke/RUANG KARAOKE.jpg" alt="Image" class="img-fluid">
             </a>
-            <h3 class="mb-0"><a href="#">Project Name 3</a></h3>
+            <h3 class="mb-0"><a href="#">Karaoke</a></h3>
             <span class="text-muted">Interior</span>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4 project-entry">
             <a href="#" class="d-block figure">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+              <img src="assets/front/images/Rumah/LIVING ROOM.jpg" alt="Image" class="img-fluid">
             </a>
-            <h3 class="mb-0"><a href="#">Project Name 1</a></h3>
-            <span class="text-muted">Interior</span>
+            <h3 class="mb-0"><a href="#">Rumah</a></h3>
+            <span class="text-muted">Ruang Tamu</span>
           </div>
           <div class="col-lg-4 col-md-6 mb-4 project-entry">
             <a href="#" class="d-block figure">
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
+              <img src="assets/front/images/Resepsionis/RESEPSIONIIS.jpg" alt="Image" class="img-fluid">
             </a>
-            <h3 class="mb-0"><a href="#">Project Name 2</a></h3>
-            <span class="text-muted">Design</span>
+            <h3 class="mb-0"><a href="#">Reception</a></h3>
+            <span class="text-muted">Lobby</span>
           </div>
           <div class="col-lg-4 col-md-6 mb-4 project-entry">
             <a href="#" class="d-block figure">
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
+              <img src="assets/front/images/Rumah/backdrop RT.jpg" alt="Image" class="img-fluid">
             </a>
-            <h3 class="mb-0"><a href="#">Project Name 3</a></h3>
-            <span class="text-muted">Interior</span>
+            <h3 class="mb-0"><a href="#">Rumah</a></h3>
+            <span class="text-muted">Ruang Keluarga</span>
           </div>
         </div>
       </div>
