@@ -1,6 +1,4 @@
-
-
-    <div class="site-blocks-cover overlay inner-page" style="background-image: url(images/hero_bg_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class="site-blocks-cover overlay inner-page" style="background-image: url(assets/front/images/hero_bg_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-10">
@@ -65,8 +63,12 @@
             <p><a href="#" class="btn btn-primary btn-lg rounded-0">Read More About Us</a></p>
           </div>
         </div> 
-
-        
+<div class="site-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <span class="sub-title">Meet Our Team</span>
+        <h2 class="font-weight-bold text-black mb-5">Tim Kami</h2>
       </div>
     </div> -->
     
@@ -94,9 +96,25 @@
               </div>
               <h2>Cloe Marena</h2>
               <span class="sub-title">Architect</span>
+    </div>
+    <div class="row">
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="person">
+          <div class="bio-img">
+            <figure>
+              <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+            </figure>
+            <div class="social">
+              <a href="#"><span class="icon-facebook"></span></a>
+              <a href="#"><span class="icon-twitter"></span></a>
+              <a href="#"><span class="icon-instagram"></span></a>
             </div>
           </div>
-
+          <h2>Cloe Marena</h2>
+          <span class="sub-title">Architect</span>
+        </div>
+      </div>
           <div class="col-lg-3 col-md-6 mb-4">
             <div class="person">
               <div class="bio-img">
@@ -130,7 +148,10 @@
               <span class="sub-title">Designer</span>
             </div>
           </div>
-
+          <h2>Will Turner</h2>
+          <span class="sub-title">Designer</span>
+        </div>
+      </div>
           <div class="col-lg-3 col-md-6 mb-4">
             <div class="person">
               <div class="bio-img">
@@ -147,14 +168,14 @@
               <span class="sub-title">Engineer</span>
             </div>
           </div>
-
+          <h2>Nicolas Stainer</h2>
+          <span class="sub-title">Engineer</span>
         </div>
       </div>
+
     </div>
-
-		
-
-
+  </div>
+</div>
     <!-- <div class="site-half">
       <div class="img-bg-1" style="background-image: url('images/hero_bg_1.jpg');"></div>
       <div class="container">
@@ -164,15 +185,12 @@
             <h2 class="font-weight-bold text-black font-secondary mb-4">Kenapa Memilih Kami?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid eius facilis voluptatem eligendi magnam accusamus vel commodi asperiores sint rem reprehenderit nobis nesciunt veniam qui fugit doloremque numquam quod.</p>
             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora distinctio ipsam nesciunt recusandae repellendus asperiores amet.</p>  
-
-            <ul class="list-unstyled ul-check primary">
-              <li>Lorem ipsum dolor sit amet consectetur</li>
-              <li>Consectetur tempora distinctio ipsam</li>
-              <li>Recusandae repellendus asperiores amet</li>
-              <li>Lorem ipsum dolor sit amet consectetur</li>
-              <li>Consectetur tempora distinctio ipsam</li>
-            </ul>
-          </div>
-        </div>
+        <ul class="list-unstyled ul-check primary">
+          <li>Lorem ipsum dolor sit amet consectetur</li>
+          <li>Consectetur tempora distinctio ipsam</li>
+          <li>Recusandae repellendus asperiores amet</li>
+          <li>Lorem ipsum dolor sit amet consectetur</li>
+          <li>Consectetur tempora distinctio ipsam</li>
+        </ul>
       </div>
     </div> -->

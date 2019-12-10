@@ -1,5 +1,5 @@
 <?php
-class About extends CI_Controller
+class Designer extends CI_Controller
 {
     public function __construct()
     {
@@ -8,9 +8,9 @@ class About extends CI_Controller
 
     public function index($id = '')
     {
-        $data['judul'] = 'About';
+        $data['judul'] = 'Desainer';
         $this->load->view('public/templates/header', $data);
-        $this->load->view('public/about/index');
+        $this->load->view('public/designer/index');
         $this->load->view('public/templates/footer');
     }
 }
