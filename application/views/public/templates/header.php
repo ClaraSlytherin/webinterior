@@ -52,7 +52,7 @@
                 </a>
                 <a href="#" class="d-flex align-items-center">
                   <span class="icon-envelope mr-2"></span>
-                  <span class="d-none d-md-inline-block">+1 291 2830 302</span>
+                  <span class="d-none d-md-inline-block">+62 857 1960 6642</span>
                 </a>
               </div>
             </div>
@@ -71,11 +71,11 @@
                   <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
 
                   <ul class="site-menu js-clone-nav d-none d-lg-block">
-                    <li><a href="<?= base_url(); ?>home">Halaman Utama</a></li>
-                    <li><a href="<?= base_url(); ?>projects">Projek</a></li>
-                    <li><a href="<?= base_url(); ?>designer">Desainer</a></li>
-                    <li><a href="<?= base_url(); ?>about">Tentang Kami</a></li>
-                    <li><a href="<?= base_url(); ?>contact">Hubungi Kami</a></li>
+                    <li><a href="<?= base_url(); ?>home">Homw</a></li>
+                    <li><a href="<?= base_url(); ?>projects">Project</a></li>
+                    <li><a href="<?= base_url(); ?>designer">Designer</a></li>
+                    <li><a href="<?= base_url(); ?>about">About Us</a></li>
+                    <li><a href="<?= base_url(); ?>contact">Contact Us</a></li>
                   </ul>
                 </div>
               </nav>
