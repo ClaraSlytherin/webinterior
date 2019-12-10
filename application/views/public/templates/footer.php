@@ -8,10 +8,14 @@
                     </div>
                     <div class="col-md-6 col-lg-6">
                         <ul class="list-unstyled">
-                            <li><a href="<?= base_url(); ?>home">Halaman Utama</a></li>
-                            <li><a href="#">Services</a></li>
+                            <li><a href="<?= base_url(); ?>home">Home</a></li>
+                            <li><a href="<?= base_url(); ?>projects">Projects</a></li>
+                            <li><a href="<?= base_url(); ?>designer">Designer</a></li>
+                            <li><a href="<?= base_url(); ?>about">About Us</a></li>
+                            <li><a href="<?= base_url(); ?>contact">Contact Us</a></li>
+                            <!-- <li><a href="#">Services</a></li>
                             <li><a href="#">News</a></li>
-                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Team</a></li> -->
                         </ul>
                     </div>
                     <div class="col-md-6 col-lg-6">
@@ -19,7 +23,7 @@
                             <li><a href="<?= base_url(); ?>about">Tentang Kami</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="<?= base_url(); ?>contact">Hubungi Kami</a></li>
-                            <li><a href="#">Membership</a></li>
+                            <!-- <li><a href="#">Membership</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -97,7 +101,7 @@
                         <div>
                             <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
                             <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                            <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                            <a href="https://www.instagram.com/ruangrespons/" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
                             <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
                         </div>
                     </div>
