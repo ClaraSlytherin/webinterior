@@ -8,7 +8,8 @@ class Designer extends CI_Controller
 
     public function index($id = '')
     {
-        $this->load->view('public/templates/header');
+        $data['judul'] = 'Desainer';
+        $this->load->view('public/templates/header', $data);
         $this->load->view('public/designer/index');
         $this->load->view('public/templates/footer');
     }

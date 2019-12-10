@@ -64,8 +64,6 @@
             <p><a href="#" class="btn btn-primary btn-lg rounded-0">Read More About Us</a></p>
           </div>
         </div> 
-
-        
       </div>
     </div> -->
 
@@ -158,6 +156,7 @@
 
 
 <!-- <div class="site-half">
+
       <div class="img-bg-1" style="background-image: url('images/hero_bg_1.jpg');"></div>
       <div class="container">
         <div class="row no-gutters align-items-stretch">
@@ -166,15 +165,12 @@
             <h2 class="font-weight-bold text-black font-secondary mb-4">Kenapa Memilih Kami?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid eius facilis voluptatem eligendi magnam accusamus vel commodi asperiores sint rem reprehenderit nobis nesciunt veniam qui fugit doloremque numquam quod.</p>
             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora distinctio ipsam nesciunt recusandae repellendus asperiores amet.</p>  
-
-            <ul class="list-unstyled ul-check primary">
-              <li>Lorem ipsum dolor sit amet consectetur</li>
-              <li>Consectetur tempora distinctio ipsam</li>
-              <li>Recusandae repellendus asperiores amet</li>
-              <li>Lorem ipsum dolor sit amet consectetur</li>
-              <li>Consectetur tempora distinctio ipsam</li>
-            </ul>
-          </div>
-        </div>
+        <ul class="list-unstyled ul-check primary">
+          <li>Lorem ipsum dolor sit amet consectetur</li>
+          <li>Consectetur tempora distinctio ipsam</li>
+          <li>Recusandae repellendus asperiores amet</li>
+          <li>Lorem ipsum dolor sit amet consectetur</li>
+          <li>Consectetur tempora distinctio ipsam</li>
+        </ul>
       </div>
     </div> -->

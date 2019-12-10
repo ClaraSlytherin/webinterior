@@ -8,7 +8,8 @@ class Contact extends CI_Controller
 
     public function index($id = '')
     {
-        $this->load->view('public/templates/header');
+        $data['judul'] = 'Contact Us';
+        $this->load->view('public/templates/header', $data);
         $this->load->view('public/contact/index');
         $this->load->view('public/templates/footer');
     }

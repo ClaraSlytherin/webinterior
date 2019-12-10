@@ -2,27 +2,27 @@
 <html lang="en">
 
 <head>
-    <title>Interior Design - Ruang Respon</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title><?= $judul; ?></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900">
-    <link rel="stylesheet" href="assets/front/fonts/icomoon/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900">
+  <link rel="stylesheet" href="assets/front/fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="assets/front/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/front/css/jquery-ui.css">
-    <link rel="stylesheet" href="assets/front/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/front/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/front/css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="assets/front/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/front/css/jquery-ui.css">
+  <link rel="stylesheet" href="assets/front/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/front/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/front/css/bootstrap-datepicker.css">
 
 
-    <link rel="stylesheet" href="assets/front/fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="assets/front/fonts/flaticon/font/flaticon.css">
 
-    <link rel="stylesheet" href="assets/front/css/aos.css">
+  <link rel="stylesheet" href="assets/front/css/aos.css">
 
-    <link rel="stylesheet" href="assets/front/css/style.css">
+  <link rel="stylesheet" href="assets/front/css/style.css">
 
-    <div class="site-wrap">
+  <div class="site-wrap">
 
 <div class="site-mobile-menu">
   <div class="site-mobile-menu-header">
@@ -70,20 +70,19 @@
           <nav class="site-navigation text-right" role="navigation">
             <div class="container">
               <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
-
-              <ul class="site-menu js-clone-nav d-none d-lg-block">
-                <li><a href="<?= base_url(); ?>home">Halaman Utama</a></li>
-                <li><a href="<?= base_url(); ?>projects">Projek</a></li>
-                <li><a href="<?= base_url(); ?>designer">Desainer</a></li>
-                <li><a href="<?= base_url(); ?>about">Tentang Kami</a></li>
-                <li><a href="<?= base_url(); ?>contact">Hubungi Kami</a></li>
-              </ul>
+                  <ul class="site-menu js-clone-nav d-none d-lg-block">
+                    <li><a href="<?= base_url(); ?>home">Home</a></li>
+                    <li><a href="<?= base_url(); ?>projects">Projects</a></li>
+                    <li><a href="<?= base_url(); ?>designer">Designer</a></li>
+                    <li><a href="<?= base_url(); ?>about">About Us</a></li>
+                    <li><a href="<?= base_url(); ?>contact">Contact Us</a></li>
+                  </ul>
+                </div>
+              </nav>
             </div>
-          </nav>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
 </head>
