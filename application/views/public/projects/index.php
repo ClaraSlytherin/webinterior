@@ -21,42 +21,6 @@
           <h3 class="mb-0"><?php echo $produk['nama_desain']; ?></a></h3>
           <span class="text-muted">Interior</span>
         </div>
-        <div class="col-lg-4 col-md-6 mb-4 project-entry">
-          <a href="#" class="d-block figure">
-            <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-          </a>
-          <h3 class="mb-0"><a href="#">Project Name 2</a></h3>
-          <span class="text-muted">Design</span>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4 project-entry">
-          <a href="#" class="d-block figure">
-            <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-          </a>
-          <h3 class="mb-0"><a href="#">Project Name 3</a></h3>
-          <span class="text-muted">Interior</span>
-        </div>
-
-        <div class="col-lg-4 col-md-6 mb-4 project-entry">
-          <a href="#" class="d-block figure">
-            <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-          </a>
-          <h3 class="mb-0"><a href="#">Project Name 1</a></h3>
-          <span class="text-muted">Interior</span>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4 project-entry">
-          <a href="#" class="d-block figure">
-            <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-          </a>
-          <h3 class="mb-0"><a href="#">Project Name 2</a></h3>
-          <span class="text-muted">Design</span>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4 project-entry">
-          <a href="#" class="d-block figure">
-            <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-          </a>
-          <h3 class="mb-0"><a href="#">Project Name 3</a></h3>
-          <span class="text-muted">Interior</span>
-        </div>
       </div>
     </div>
   </div>
