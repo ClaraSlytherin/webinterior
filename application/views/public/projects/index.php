@@ -8,21 +8,35 @@
         </div>
       </div>
     </div>
-  </div>
-</div>
-
-<?php foreach ($produk as $produk) : ?>
-  <div class="site-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-6 mb-4 project-entry">
-          <a href="#" class="d-block figure">
-            <img src="<?= base_url() . 'assets/front/images/' . $produk['gambar'] ?>" alt="Image" class="img-fluid">
-          </a>
-          <h3 class="mb-0"><?php echo $produk['nama_desain']; ?></a></h3>
-          <span class="text-muted">Interior</span>
-        </div>
-      </div>
     </div>
-  </div>
-<?php endforeach; ?>
+    </div>
+
+    <div class="site-section">
+      <?php foreach ($produk as $produk) : ?>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 project-entry">
+              <a href="#" class="d-block figure">
+                <img src="<?= base_url() . 'assets/front/images/' . $produk['gambar'] ?>" alt="Image" class="img-fluid">
+              </a>
+              <h3 class="mb-0"><?php echo $produk['nama_desain']; ?></a></h3>
+              <span class="text-muted">Interior</span>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 project-entry">
+              <a href="#" class="d-block figure">
+                <img src="<?= base_url() . 'assets/front/images/' . $produk['gambar'] ?>" alt="Image" class="img-fluid">
+              </a>
+              <h3 class="mb-0"><?php echo $produk['nama_desain']; ?></a></h3>
+              <span class="text-muted">Interior</span>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 project-entry">
+              <a href="#" class="d-block figure">
+                <img src="<?= base_url() . 'assets/front/images/' . $produk['gambar'] ?>" alt="Image" class="img-fluid">
+              </a>
+              <h3 class="mb-0"><?php echo $produk['nama_desain']; ?></a></h3>
+              <span class="text-muted">Interior</span>
+            </div>
+          </div>
+        </div>
+      <?php endforeach; ?>
+    </div>
