@@ -10,7 +10,7 @@ class Designer extends CI_Controller
     public function index($id = '')
     {
         $data['judul'] = 'Desainer';
-        $data['designer'] = $this->Item_model->getJoinItem();
+        $data['designer'] = $this->Designer_model->getJoinItem();
         $this->load->view('public/templates/header', $data);
         $this->load->view('public/designer/index');
         $this->load->view('public/templates/footer');

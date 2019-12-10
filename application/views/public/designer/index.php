@@ -9,6 +9,7 @@
   </div>
 </div>
 
+<?php var_dump($designer); ?>
 <div class="site-section">
   <div class="container">
     <div class="row">
