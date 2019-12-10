@@ -11,53 +11,17 @@
   </div>
 </div>
 
-<?php var_dump($designer); ?>
+<!-- <?php var_dump($designer); ?> -->
 <div class="site-section">
+<?php foreach ($designer as $designer) : ?>
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-6 mb-4 project-entry">
         <a href="#" class="d-block figure">
-          <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+        <img src="<?= base_url() . 'assets/front/images/' . $designer['foto'] ?>" alt="Image" class="img-fluid">
         </a>
-        <h3 class="mb-0"><a href="#">Nama Desainer 1</a></h3>
-        <span class="text-muted">Penjelasan</span>
+        <h3 class="mb-0"><?php echo $designer['nama']; ?></h3>
+        <span class="text-muted"><?php echo $designer['deskripsi']; ?></span>
       </div>
-      <div class="col-lg-4 col-md-6 mb-4 project-entry">
-        <a href="#" class="d-block figure">
-          <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-        </a>
-        <h3 class="mb-0"><a href="#">Nama Desainer 2</a></h3>
-        <span class="text-muted">Penjelasan</span>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-4 project-entry">
-        <a href="#" class="d-block figure">
-          <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-        </a>
-        <h3 class="mb-0"><a href="#">Nama Desainer 3</a></h3>
-        <span class="text-muted">Penjelasan</span>
-      </div>
-
-      <div class="col-lg-4 col-md-6 mb-4 project-entry">
-        <a href="#" class="d-block figure">
-          <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-        </a>
-        <h3 class="mb-0"><a href="#">Nama Desainer 4</a></h3>
-        <span class="text-muted">Penjelasan</span>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-4 project-entry">
-        <a href="#" class="d-block figure">
-          <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-        </a>
-        <h3 class="mb-0"><a href="#">Nama Desainer 5</a></h3>
-        <span class="text-muted">Penjelasan</span>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-4 project-entry">
-        <a href="#" class="d-block figure">
-          <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-        </a>
-        <h3 class="mb-0"><a href="#">Nama Desainer 6</a></h3>
-        <span class="text-muted">Penjelasan</span>
-      </div>
-    </div>
-  </div>
+  <?php endforeach; ?>
 </div>
