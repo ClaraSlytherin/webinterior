@@ -8,21 +8,25 @@
 	</div>
 </div>
 
-<p class="font_8" style="font-size:18px; line-height:1.6em; text-align:center;">
-	<span style="font-family:wfont_07d31d_7d12534e075c47c7940712450ea83648,wf_7d12534e075c47c7940712450,orig_gothamroundedlight;">
-		<span style="font-size:20px;">
-			<span style="letter-spacing:0em;">
-				<span style="color:#20303C;">
-					Ruang Respons adalah ekonomi kreatif yang bergerak di bidang desain interior yang berbasis di Tuban. Membuat, mengembangkan, dan mengimplementasikan solusi untuk pengguna ruang dengan solusi ideal baik untuk keperluan privat maupun komersial.
-					Pemecahan masalah tata ruang agar lebih efektif dan fungsional adalah salah satu tugas kami. Kami sepakat bahwa desain yang baik adalah desain yang bisa dinikmati semua kalangan. Maka dari itu kami membangun pemecahan masalah dalam hal desain interior yang kami kolaborasikan dengan aspek - aspek yang
-					tersisipkan disetiap bagian keseharian masyarakat, sehingga pengguna ruang dapat menikmati hasil desain yang fungsional, solutif, dan ergonomis.
-				</span>
-			</span>
-		</span>
-	</span>
-</p>
-
 <div class="site-section">
+  <div class="container">
+    <p class="font_8" style="font-size:18px; line-height:1.6em; text-align:center;">
+      <span style="font-family:wfont_07d31d_7d12534e075c47c7940712450ea83648,wf_7d12534e075c47c7940712450,orig_gothamroundedlight;">
+        <span style="font-size:20px;">
+          <span style="letter-spacing:0em;">
+            <span style="color:#20303C;">
+              Ruang Respons adalah ekonomi kreatif yang bergerak di bidang desain interior yang berbasis di Tuban. Membuat, mengembangkan, dan mengimplementasikan solusi untuk pengguna ruang dengan solusi ideal baik untuk keperluan privat maupun komersial.
+              Pemecahan masalah tata ruang agar lebih efektif dan fungsional adalah salah satu tugas kami. Kami sepakat bahwa desain yang baik adalah desain yang bisa dinikmati semua kalangan. Maka dari itu kami membangun pemecahan masalah dalam hal desain interior yang kami kolaborasikan dengan aspek - aspek yang
+              tersisipkan disetiap bagian keseharian masyarakat, sehingga pengguna ruang dapat menikmati hasil desain yang fungsional, solutif, dan ergonomis.
+            </span>
+          </span>
+        </span>
+      </span>
+    </p>
+  </div>
+</div>
+
+<!-- <div class="site-section">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 text-center">
@@ -34,7 +38,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 <!-- 				
 						<div class="col-lg-3 col-md-6 mb-4">
             	<div class="person">
@@ -67,7 +71,7 @@
       </div>
     </div> -->
 
-<div class="site-section">
+<!-- <div class="site-section">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 text-center">
@@ -92,9 +96,9 @@
 					<h2>Cloe Marena</h2>
 					<span class="sub-title">Architect</span>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="col-lg-3 col-md-6 mb-4">
+			<!-- <div class="col-lg-3 col-md-6 mb-4">
 				<div class="person">
 					<div class="bio-img">
 						<figure>
@@ -150,7 +154,7 @@
 
 		</div>
 	</div>
-</div>
+</div> -->
 
 
 
