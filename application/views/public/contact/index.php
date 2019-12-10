@@ -1,4 +1,4 @@
-<div class="site-section bg-green">
+<!-- <div class="site-section bg-green">
   <div class="container">
     <div class="row">
 
@@ -6,46 +6,60 @@
 
         <h2 class="site-heading text-black mb-5">Say <strong>Hello</strong></h2>
 
-        <form action="#" class="p-5 bg-white">
+        <form action="#" class="p-5 bg-white"> -->
+<div class="site-blocks-cover overlay inner-page" style="background-image: url(assets/front/images/hero_bg_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-10">
+				<h1>Say Hello</h1>
+			</div>
+		</div>
+	</div>
+</div>
 
+<div class="container site-section block-13 testimonial-wrap">
           <div class="row form-group">
             <div class="col-md-12 mb-3 mb-md-0">
               <label class="font-weight-bold" for="fullname">Nama Lengkap</label>
-              <input type="text" id="fullname" class="form-control" placeholder="Nama Lengkap">
+              <input type="text" id="fullname" class="form-control" placeholder="Nama Lengkap" required>
+              <!-- <div *ngIf="fullname.touched && fullname.invalid" class="alert alert-danger">
+              Nama harus diisi!
+              </div> -->
             </div>
           </div>
           <div class="row form-group">
             <div class="col-md-12">
               <label class="font-weight-bold" for="email">Email</label>
-              <input type="email" id="email" class="form-control" placeholder="Alamat Email">
+              <input type="email" id="email" class="form-control" placeholder="Alamat Email" requried>
             </div>
           </div>
-
-
-
           <div class="row form-group">
             <div class="col-md-12">
               <label class="font-weight-bold" for="message">Pesan</label>
-              <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Isi Pesan"></textarea>
+              <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Isi Pesan" required></textarea>
             </div>
           </div>
-
           <div class="row form-group">
             <div class="col-md-12">
-              <input type="submit" value="Send" class="btn btn-primary rounded-0 btn-lg">
+              <button class="btn btn-primary rounded-0 btn-lg" onclick="window.location.href = '<?= base_url(); ?>contact'">Submit</button>
+              <!-- <script>
+                alert("Pesan terkirim.")
+              </script> -->
             </div>
           </div>
+<!-- </div> -->
 
 
+<!-- 
         </form>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
-<div class="container site-section block-13 testimonial-wrap">
-
-  <h1>Temukan Kami</h1>
+<!-- <div class="container site-section block-13 testimonial-wrap"> -->
+  <br>
+  <h2>Temukan Kami</h2>
   <!-- <div id="googleMap" style="width:100%;height:400px;"></div> -->
 
   <!-- <script>
@@ -83,7 +97,7 @@
     </style>
   </div>
 
-  <div class="row">
+  <!-- <div class="row">
     <div class="col-12 text-center">
       <span class="sub-title">Happy Clients</span>
       <h2 class="font-weight-bold text-black mb-5">Testimonials</h2>
@@ -118,6 +132,6 @@
       <h3>Nicolas Stainer</h3>
       <span class="sub-title">Owner of Building Co.</span>
       <p>&ldquo;<em>Voluptatibus sed vero corporis reiciendis, ducimus iste aliquam doloribus voluptas nam quo assumenda perferendis excepturi accusantium, ipsam minus tempora earum exercitationem laborum. Delectus voluptate quaerat repellat obcaecati. Qui nemo ad similique facere modi dolores.</em>&rdquo;</p>
-    </div>
+    </div> -->
   </div>
 </div>
