@@ -214,89 +214,79 @@
       <div class="col-lg-6">
         <div class="row row-items">
           <div class="col-6">
-            <!-- <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
-                  <span class="align-self-center w-100">
-                    <span class="d-block mb-3">
-                      <span class="flaticon-step-ladder display-3"></span>
-                    </span>
-                    <h3>Pool Decor</h3>
-                  </span>
-                </a>
-              </div> -->
-            <div class="col-6">
-              <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
-                <span class="align-self-center w-100">
-                  <span class="d-block mb-3">
-                    <span class="flaticon-sit-down display-3"></span>
-                  </span>
-                  <h3>Dekorasi Kursi</h3>
+            <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
+              <span class="align-self-center w-100">
+                <span class="d-block mb-3">
+                  <span class="flaticon-sit-down display-3"></span>
                 </span>
-              </a>
-            </div>
+                <h3>Dekorasi Kursi</h3>
+              </span>
+            </a>
           </div>
-          <div class="row row-items last">
-            <div class="col-6">
-              <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
-                <span class="align-self-center w-100">
-                  <span class="d-block mb-3">
-                    <span class="flaticon-turned-off display-3"></span>
-                  </span>
-                  <h3>Ide Intuitif</h3>
+        </div>
+        <div class="row row-items last">
+          <div class="col-6">
+            <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
+              <span class="align-self-center w-100">
+                <span class="d-block mb-3">
+                  <span class="flaticon-turned-off display-3"></span>
                 </span>
-              </a>
-            </div>
-            <div class="col-6">
-              <a href="#" class="d-flex text-center active feature active p-4 mb-4 bg-white">
-                <span class="align-self-center w-100">
-                  <span class="d-block mb-3">
-                    <span class="flaticon-window display-3"></span>
-                  </span>
-                  <h3>Dekorasi</h3>
+                <h3>Ide Intuitif</h3>
+              </span>
+            </a>
+          </div>
+          <div class="col-6">
+            <a href="#" class="d-flex text-center active feature active p-4 mb-4 bg-white">
+              <span class="align-self-center w-100">
+                <span class="d-block mb-3">
+                  <span class="flaticon-window display-3"></span>
                 </span>
-              </a>
-            </div>
+                <h3>Dekorasi</h3>
+              </span>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <div class="site-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <span class="sub-title">Berita</span>
-          <h2 class="font-weight-bold text-black mb-5">Postingan Blog Kami</h2>
-        </div>
+<div class="site-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <span class="sub-title">Berita</span>
+        <h2 class="font-weight-bold text-black mb-5">Postingan Blog Kami</h2>
       </div>
-      <div class="row mb-5">
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 post-entry">
-          <a href="#" class="d-block figure">
-            <img src="assets/front/images/img_1.jpg" alt="Image" class="img-fluid">
-          </a>
-          <span class="text-muted d-block mb-2">23, January 2019</span>
-          <h3><a href="#">Architecture is ready to take the world to the next level </a></h3>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 post-entry">
-          <a href="#" class="d-block figure">
-            <img src="assets/front/images/img_2.jpg" alt="Image" class="img-fluid">
-          </a>
-          <span class="text-muted d-block mb-2">23, January 2019</span>
-          <h3><a href="#">Architecture is ready to take the world to the next level </a></h3>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 post-entry">
-          <a href="#" class="d-block figure">
-            <img src="assets/front/images/img_3.jpg" alt="Image" class="img-fluid">
-          </a>
-          <span class="text-muted d-block mb-2">23, January 2019</span>
-          <h3><a href="#">Architecture is ready to take the world to the next level </a></h3>
-        </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 post-entry">
+        <a href="#" class="d-block figure">
+          <img src="assets/front/images/img_1.jpg" alt="Image" class="img-fluid">
+        </a>
+        <span class="text-muted d-block mb-2">23, January 2019</span>
+        <h3><a href="#">Architecture is ready to take the world to the next level </a></h3>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 post-entry">
+        <a href="#" class="d-block figure">
+          <img src="assets/front/images/img_2.jpg" alt="Image" class="img-fluid">
+        </a>
+        <span class="text-muted d-block mb-2">23, January 2019</span>
+        <h3><a href="#">Architecture is ready to take the world to the next level </a></h3>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 post-entry">
+        <a href="#" class="d-block figure">
+          <img src="assets/front/images/img_3.jpg" alt="Image" class="img-fluid">
+        </a>
+        <span class="text-muted d-block mb-2">23, January 2019</span>
+        <h3><a href="#">Architecture is ready to take the world to the next level </a></h3>
+      </div>
 
-      </div>
-      <div class="row mt-5 text-center">
-        <div class="col-12">
-          <p><a href="#" class="btn btn-primary btn-lg rounded-0">Lihat Semua Post</a></p>
-        </div>
+    </div>
+    <div class="row mt-5 text-center">
+      <div class="col-12">
+        <p><a href="#" class="btn btn-primary btn-lg rounded-0">Lihat Semua Post</a></p>
       </div>
     </div>
   </div>
+</div>
