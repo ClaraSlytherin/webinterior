@@ -22,6 +22,11 @@
           <a href="#" class="d-block figure">
           <img src="<?= base_url() . 'assets/front/images/' . $designer['foto'] ?>" alt="Image" class="img-fluid" width="100px" height="250px">
           </a>
+          <div class="social">
+						<a href="#"><span class="icon-facebook"></span></a>
+						<a href="#"><span class="icon-twitter"></span></a>
+						<a href="#"><span class="icon-instagram"></span></a>
+					</div>
           <h3 class="mb-0"><?php echo $designer['nama']; ?></a></h3>
           <span class="text-muted"><?php echo $designer['deskripsi']; ?></span>
         </div>
