@@ -21,24 +21,30 @@
           <div class="row form-group">
             <div class="col-md-12 mb-3 mb-md-0">
               <label class="font-weight-bold" for="fullname">Nama Lengkap</label>
-              <input type="text" id="fullname" class="form-control" placeholder="Nama Lengkap">
+              <input type="text" id="fullname" class="form-control" placeholder="Nama Lengkap" required>
+              <!-- <div *ngIf="fullname.touched && fullname.invalid" class="alert alert-danger">
+              Nama harus diisi!
+              </div> -->
             </div>
           </div>
           <div class="row form-group">
             <div class="col-md-12">
               <label class="font-weight-bold" for="email">Email</label>
-              <input type="email" id="email" class="form-control" placeholder="Alamat Email">
+              <input type="email" id="email" class="form-control" placeholder="Alamat Email" requried>
             </div>
           </div>
           <div class="row form-group">
             <div class="col-md-12">
               <label class="font-weight-bold" for="message">Pesan</label>
-              <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Isi Pesan"></textarea>
+              <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Isi Pesan" required></textarea>
             </div>
           </div>
           <div class="row form-group">
             <div class="col-md-12">
-              <input type="submit" value="Send" class="btn btn-primary rounded-0 btn-lg">
+              <button class="btn btn-primary rounded-0 btn-lg" onclick="window.location.href = '<?= base_url(); ?>contact'">Submit</button>
+              <!-- <script>
+                alert("Pesan terkirim.")
+              </script> -->
             </div>
           </div>
 <!-- </div> -->
