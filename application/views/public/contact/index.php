@@ -46,6 +46,31 @@
 
     <div class="container site-section block-13 testimonial-wrap">
 
+		<h1>Temukan Kami</h1>
+		<!-- <div id="googleMap" style="width:100%;height:400px;"></div> -->
+
+		<!-- <script>
+			function myMap() {
+			var mapProp= {
+  		center:new google.maps.LatLng(51.508742,-0.120850),
+  		zoom:5,
+			};
+			var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			}
+		</script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEmuMNx2b8LtNB35glEWkOJZtGt9qrspk&callback=myMap">
+		</script> -->
+		<div class="mapouter">
+				<div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=jalan%20pisang%20kipas%2072%20malang&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+			frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+		</iframe>
+		
+			<a href="https://www.embedgooglemap.org">google map embed remove place card</a>
+		
+		</div>
+			<style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+		</div>
+
       <div class="row">
         <div class="col-12 text-center">
           <span class="sub-title">Happy Clients</span>

@@ -29,7 +29,7 @@
             <div class="col-lg-4">
 
 
-                <div class="mb-5">
+                <!-- <div class="mb-5">
                     <h3 class="footer-heading mb-4">Berita Terbaru</h3>
                     <div class="block-25">
                         <ul class="list-unstyled">
@@ -70,9 +70,9 @@
                     </div>
                 </div>
 
-            </div>
+            </div> -->
 
-
+<!-- 
             <div class="col-lg-4 mb-5 mb-lg-0">
 
                 <div class="mb-5">
@@ -88,7 +88,7 @@
                         </div>
                     </form>
 
-                </div>
+                </div> -->
 
                 <div class="row">
                     <div class="col-md-12">
@@ -110,11 +110,10 @@
         <div class="row pt-5 mt-5 text-center">
             <div class="col-md-12">
                 <p>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>
-                        document.write(new Date().getFullYear());
-                    </script> All rights reserved | This template is made with <i class="icon-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    
+                     
+                    </script>Copyright &#169; Ruang Respon 2019. All rights reserved </a>
+                    
                 </p>
             </div>
 

@@ -32,18 +32,16 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div> <!-- .site-mobile-menu -->
-
-
     <div class="site-navbar-wrap">
       <div class="site-navbar-top">
         <div class="container py-3">
           <div class="row align-items-center">
-            <div class="col-6">
+<!--             <div class="col-6">
               <a href="#" class="p-2 pl-0"><span class="icon-twitter"></span></a>
               <a href="#" class="p-2 pl-0"><span class="icon-facebook"></span></a>
               <a href="#" class="p-2 pl-0"><span class="icon-linkedin"></span></a>
               <a href="#" class="p-2 pl-0"><span class="icon-instagram"></span></a>
-            </div>
+            </div> -->
             <div class="col-6">
               <div class="d-flex ml-auto">
                 <a href="#" class="d-flex align-items-center ml-auto mr-4">
@@ -71,11 +69,11 @@
                   <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
 
                   <ul class="site-menu js-clone-nav d-none d-lg-block">
-                    <li><a href="<?= base_url(); ?>home">Halaman Utama</a></li>
-                    <li><a href="<?= base_url(); ?>projects">Projek</a></li>
-                    <li><a href="<?= base_url(); ?>designer">Desainer</a></li>
-                    <li><a href="<?= base_url(); ?>about">Tentang Kami</a></li>
-                    <li><a href="<?= base_url(); ?>contact">Hubungi Kami</a></li>
+                    <li><a href="<?= base_url(); ?>home">Home</a></li>
+                    <li><a href="<?= base_url(); ?>projects">Projects</a></li>
+                    <li><a href="<?= base_url(); ?>designer">Designer</a></li>
+                    <li><a href="<?= base_url(); ?>about">About Us</a></li>
+                    <li><a href="<?= base_url(); ?>contact">Contact Us</a></li>
                   </ul>
                 </div>
               </nav>
