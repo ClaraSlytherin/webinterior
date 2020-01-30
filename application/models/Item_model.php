@@ -5,6 +5,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Item_model extends CI_model
 {
+
+    public function getProduct()
+    {
+        $this->db->select('*');
+        $this->db->from('tabel_item');
+        // $this->db->join('kategori_produk', 'tabel_item.id_kategori = kategori_produk.id_kategori');
+        return $query = $this->db->get()->result_array();
+    }
+
     public function getNewProduct()
     {
         return $this->db->get('tabel_item')->result_array();
