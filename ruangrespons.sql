@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 10, 2019 at 01:24 PM
+-- Generation Time: Jan 30, 2020 at 09:08 AM
 -- Server version: 5.5.32
 -- PHP Version: 5.4.16
 
@@ -70,14 +70,18 @@ CREATE TABLE IF NOT EXISTS `data_designer` (
   `foto` varchar(50) DEFAULT NULL,
   `deskripsi` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
 
 --
 -- Dumping data for table `data_designer`
 --
 
 INSERT INTO `data_designer` (`id`, `email`, `nama`, `foto`, `deskripsi`) VALUES
-(5, 'irhamrizaldy@gmail.com', 'Irham Rizaldy', '888171_night_512x512.png', 'Admin');
+(5, 'irhamrizaldy@gmail.com', 'Irham Rizaldy', '888171_night_512x512.png', 'Admin'),
+(6, '', 'Andhun Hariadi', 'person1.png', 'Creative Director / Interior Design'),
+(7, '', 'Ayu Gita Pancasari', 'person2.png', 'Profesional Marketing'),
+(8, '', 'Rahmad Ramadhan Alkhafid', 'person3.png', '3D Artist / Interior Design'),
+(9, '', 'Fernanda Adi Saputra', 'person4.png', 'Drafter / Interior Design');
 
 -- --------------------------------------------------------
 
@@ -91,7 +95,7 @@ CREATE TABLE IF NOT EXISTS `kategori_produk` (
   PRIMARY KEY (`id_kategori`),
   KEY `id_kategori` (`id_kategori`),
   KEY `id_kategori_2` (`id_kategori`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
 
 --
 -- Dumping data for table `kategori_produk`
@@ -102,7 +106,9 @@ INSERT INTO `kategori_produk` (`id_kategori`, `nama_kategori`) VALUES
 (2, 'Cafe'),
 (3, 'Resepsionis'),
 (4, 'Ruang Karaoke'),
-(5, 'Rumah');
+(5, 'Rumah'),
+(6, 'Kitchen'),
+(7, 'Living Room');
 
 -- --------------------------------------------------------
 
@@ -120,18 +126,28 @@ CREATE TABLE IF NOT EXISTS `tabel_item` (
   KEY `id_kategori` (`id_kategori`),
   KEY `id_kategori_2` (`id_kategori`),
   KEY `id_kategori_3` (`id_kategori`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=25 ;
 
 --
 -- Dumping data for table `tabel_item`
 --
 
 INSERT INTO `tabel_item` (`id_item`, `id_kategori`, `nama_desain`, `gambar`, `deskripsi`) VALUES
-(5, 1, 'Bedroom-1', 'BEDROM.jpg', 'Bedroom Number 1'),
-(6, 2, 'Cafe-1', 'diit.jpg', 'Cafe-1'),
-(7, 3, 'Resepsionis-1', 'RESEPSIONIIS.jpg', 'Resepsionis-1'),
-(8, 4, 'Ruang Karaoke-1', 'RUANG_KARAOKE.jpg', 'Ruang Karaoke-1'),
-(9, 5, 'Rumah-1', 'LIVING_ROOM.jpg', 'Rumah-1');
+(5, 1, 'Bedroom-1', 'BEDROM.jpg', 'Master Bedroom'),
+(6, 2, 'Cafe-1', 'cafe1.jpg', 'Coffee Shop'),
+(7, 3, 'Resepsionis-1', 'resepsionis1.jpg', 'Resepsionis Room'),
+(8, 4, 'Ruang Karaoke-1', 'ruangkaraoke1.jpg', 'Karaoke Room'),
+(9, 5, 'Rumah-1', 'rumah1.jpg', 'Facade'),
+(10, 1, 'Bedroom-2', 'bedroom2.jpg', 'Master Bedroom'),
+(13, 1, 'Bedroom-5', 'bedroom5.jpg', 'Master Bedroom'),
+(17, 1, 'Bedroom-9', 'bedroom9.jpg', 'Master Bedroom'),
+(18, 1, 'Bedroom-10', 'bedroom10.jpg', 'Master Bedroom'),
+(19, 6, 'Dapur-1', 'kitchen1.jpg', 'Kitchen Set'),
+(20, 6, 'Dapur-2', 'kitchen2.jpg', 'Kitchen Set'),
+(21, 6, 'Dapur-3', 'kitchen3.jpg', 'Kitchen Set'),
+(22, 7, 'Ruang Keluarga-1', 'livingroom1.jpg', 'Living Room'),
+(23, 7, 'Ruang Keluarga-2', 'livingroom2.jpg', 'Living Room'),
+(24, 7, 'Ruang Keliuarga-3', 'livingroom3.jpg', 'Living Room');
 
 --
 -- Constraints for dumped tables
