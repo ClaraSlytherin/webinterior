@@ -10,7 +10,7 @@ class Projects extends CI_Controller
     public function index($id = '')
     {
         $data['judul'] = 'Projects';
-        $data['produk'] = $this->Item_model->getNewProduct();
+        $data['produk'] = $this->Item_model->getProduct();
         $this->load->view('public/templates/header', $data);
         $this->load->view('public/projects/index');
         $this->load->view('public/templates/footer');
