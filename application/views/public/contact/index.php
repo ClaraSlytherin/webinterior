@@ -74,7 +74,7 @@
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEmuMNx2b8LtNB35glEWkOJZtGt9qrspk&callback=myMap">
 		</script> -->
   <div class="mapouter">
-    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=jalan%20pisang%20kipas%2072%20malang&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.0090153532374!2d112.05026231449057!3d-6.889522669331305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77bd52526e9bbd%3A0x48ff28e763c9afdc!2sJl.%20Mbah%20Bali%2C%20Kingking%2C%20Kec.%20Tuban%2C%20Kabupaten%20Tuban%2C%20Jawa%20Timur%2062313!5e0!3m2!1sid!2sid!4v1582112639507!5m2!1sid!2sid" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
       </iframe>
 
       <a href="https://www.embedgooglemap.org">google map embed remove place card</a>
