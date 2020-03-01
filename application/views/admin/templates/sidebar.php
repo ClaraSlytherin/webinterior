@@ -40,14 +40,8 @@
           <span>Designer</span>
         </a>
       </li>
-      <!-- <li class="">
-        <a href="<?= base_url() ?>admin/user">
-          <i class="fa fa-users"></i>
-          <span>User Management</span>
-        </a> -->
-      <!-- </li>
       <li class="">
-        <a href="<?= base_url() ?>admin/report">
+        <a href="<?= base_url() ?>admin/messages">
           <i class="fa fa-book"></i>
           <span>Report</span>
         </a>
